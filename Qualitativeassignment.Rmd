@@ -1,0 +1,7 @@
+---
+title: "Qualitativeassignment"
+author: "Gayoung Park"
+date: "2015. 4. 22."
+output: html_document
+---
+
