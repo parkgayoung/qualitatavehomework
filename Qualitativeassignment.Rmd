@@ -5,4 +5,19 @@ date: "2015. 4. 22."
 output: html_document
 ---
 
-Let's do study!
+First task I should do: choose topic and find relating articles. 
+-A monograph or monograph-length archaeological publication on a topic that is central to your dissertation proposal
+
+
+Most problematic and popular issue is about the starting point and origin of upper Paleolithic period. Some people insist that emergence of blade (32,000 BP) is the starting point while others think stemmed point (35,000 BP) indicate the start. And the origin of upper Paleolithic had been regarded as coming from Shuidonggou. However, nowadays this concept starts to be rethink about the theory. The dates of the similar sites in Korea turned out being earlier than Shuidonggou. Therefore people find the new origin and present three different models despite the huge gap of North Korea. First model is in situ evolutionary model which is blade, stemmed point and other upper Paleolithic assemblages autonomously emerged in the South of Korean peninsula. Second one is migration model. From the north, not China, people came to the Korean peninsula with new stone tool. Last one is traded and exchange model mixing with migration one. Once people with new technology settled down in the north part of Korea and then give their knowledge or lithics to other group.              
+
+
+Bae, K., 2010 Origin and pattern of the Upper Paleolithic industries in the Korean Peninsula and movement of modern human in East Asia. Quaternary International, 211(1-2): 103-112
+
+Bae, K., 2012 The nature of the Early to Late Paleolithic transition in Korea: Current perspectives. Quaternary International, 281: 26-35
+
+Lee, H., 2013. Current observations of the early Late Paleolithic in Korea. Quaternary International, Volume 316, pp. 45-58
+
+
+Second task
+-Describe the structure of the explanation. This includes identifying the main types of evidence, the links between evidence and stories of past human behavior and the links between human behaviors at different scales (short-term/long-term, individual/group, etc.)
