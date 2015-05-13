@@ -12,7 +12,10 @@ Most problematic and popular issue is about the starting point and origin of upp
 In this project, I would like to focus those three models and verify each one based on archaeological evidences and links between evidences and behaviors. 
 
 ##Archaeological evidence
-blade/micro-blade technologies, stemmed points (new),traditional core and flake
+blade/micro-blade technologies, stemmed points (new),traditional core and flake, stratigraphic layer
+
+Stone toolkits such as core and blade of Early Paleolithic continue to be comprised of Late Paleolithic in Korea while other lithic assemblages are comprised of blade and microblade ston tools (Bae 2012)
+
 
 ##Links between evidence and behavior
 migration or trade or both
@@ -25,11 +28,39 @@ amoung indigenous
 
 1) Which model is more reasonable?
 
-Seong: in situ,
-Bae: migration
-Lee: mixing model? (He says new technologies was introduced but didn't change traditional assemblages) 
+(1)Seong: in situ, evolutionary- IBE 'x->y', Salmon
+      "indigenous behavioral evolution"
+      "The change of using blade and blade tool is viewed as slow, evolutionary process that eventually culimated        in the Late Paleolithic transition"  
+      "The increasind frequency of blades in these sites is evidence for in situ model"
+      "Similar subsistene pattern: making stemmed point and then microblade" 
+
+(2)Bae: migration, unification/ ontic
+     "Combination of different foraging groups emigrating from Siberia and southern China"
+     "Population movement"
+     "Counter argument of in situ: absence of continuous behavioral evolutionary transition such as from Oldowan to Acheulean"
+     "Genetic evidence: forgaing groups from southern China (modern humans) that still used Early Paleolithic core and flake tools migreaged northward to the Korean Peninsula" -> question "Why did they move facing colder environmental condition" -> answer: depending on "Paleobathymetric variation : South china was dry and that region and Korean Peninsula were connected at that time-swallow yellow sea", "Marine Isotope: not that much cold at that time"
+     "But still don't know why they moved"
+     
+
+Law like statement: modern people -> migrate -> all modern people migrate -> it started upper Paleolithic
+But it seems Salmon's causual!
+
+
+(3)Migration/trade interaction model-modified version of migration model
+"NO documented evidence of migration" 
+"Small frequency of new technology-blades and stemmed points at the beginning (slow introduction) of the Late Plaeolithicm but still most of assemblage were dominated by traditional lithics"
+"Possiblity of long distance migration: obsidian, Arca shells"
+e.g.Lee?: mixing model?/ (He says new technologies was introduced but didn't change traditional assemblages) 
+     
+
 
 2) Application of scientific explanation
+
+hunter-gatherer's/Binford- functional explanation
+natural selection- apply to functional explanation - such as evolutionary explanation- but hard to verify/ unproveable. for example- no proxy in attribute of lithic. but zoo archaeology- it works
+??????????????? ??? ??? ?????????????????? ????????? ????????? ?????????? -markov-chain.????????? ??? ???????????????
+community noum (reading and check all readind and case and then determine whether or not this case is general or is hard to explain in general way) and practice
+informal-high probability
 
 ##Conclusion
 
@@ -39,14 +70,16 @@ Seong, C.T., 2009. Emergence of a blade industry and evolution of Late Paleolith
 
 Bae, K., 2010. Origin and pattern of the Upper Paleolithic industries in the Korean Peninsula and movement of modern human in East Asia. Quaternary International, 211(1-2): 103-112
 
-Bae, K., 2012. The nature of the Early to Late Paleolithic transition in Korea: Current perspectives. Quaternary International, 281: 26-35
+Bae, C.J. & Bae, K., 2012. The nature of the Early to Late Paleolithic transition in Korea: Current perspectives. Quaternary International, 281: 26-35
 
 Lee, H., 2013. Current observations of the early Late Paleolithic in Korea. Quaternary International, Volume 316, pp. 45-58
 
 
+#Note for writing
+(1) Modern human and blade/microblade
+So far, blade/microblade technology has been regarded as symbol of modern human. But current evidences support the counterargument of those relationship. In other words, there is some cases which illustrate no relationship between blade/microblade technology and human. For example, the technology got started ealier than evolution towards modern Homo sapiens in Africa. In addition, there is no blade/microblade eventhough modern human reached until Southeast Asia (Shea et al.,Bae & Bae 2012).   
 
-
-
+(2) the Korean Late Paleolithic can be divided into two cultural stages: 1) an initial blade technology that appears sometime between 40 and 36ka; 2)around 25ka microblade begin to appear 
 
 
 
