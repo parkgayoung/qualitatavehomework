@@ -11,6 +11,8 @@ Most problematic and popular issue is about the starting point and origin of upp
 
 In this project, I would like to focus those three models and verify each one based on archaeological evidences and links between evidences and behaviors. 
 
+
+
 ##Archaeological evidence
 blade/micro-blade technologies, stemmed points (new),traditional core and flake, stratigraphic layer
 
@@ -25,6 +27,8 @@ between indigenous foragers and non-indigenous
 amoung indigenous
 
 ##Discussion
+
+Main reason of the debates is that the related Korean archaeological records do not provide strongly perceived distinctive toolkit such as Aurignacian in Europe (Lee 2013).
 
 1) Which model is more reasonable?
 
@@ -46,11 +50,25 @@ Law like statement: modern people -> migrate -> all modern people migrate -> it 
 But it seems Salmon's causual!
 
 
-(3)Migration/trade interaction model-modified version of migration model
+(3)Lee?: mixing model?/ (He says new technologies was introduced but didn't change traditional assemblages) 
+    Basically His argument was originated from errors of others'.--foil?
+    The blade toolkits were introduced, but did not immediately replaced pre/coexisting traditional assemblage.
+    Also blade technology did not replace the prexisiting assemblage.
+    Ful-fledged simple core and flake tool assemblages (SCFA-pre/coexisting traditional assemblage) seems to reoccur around 100 ka and flourish unrtil 30ka. During the blade period, the SCFA exhibits the general characteristics withouth a wide range of variation within assemblage. 
+    Blade-based lithic technology initially starts around 35 ka in Korea (Bae,2010).
+    Evolutionary thoey (in situ) does not make sense due to absence of any predetermined lithic strategies that require extensive preparation, such as Levallois technique (Bar-Yosef and Kuhn 1999 sited in Lee 2013). And migration model should have Levallois technique too because Levallois technology is comprised of not only the Levallois technique, but also blades.
+    The most possible region the blade might originated from (migration thoery) is Altai region and 50ka (micro blade-30ka) based on evidence from Denisova Cave (Derevianko 2011 sited in Lee 2013). But there is huge time gap between Altai and Korea though the initial period of blade introduction is still not clear in Korea. The Korean blade assemblage from the period does not show sophisticated balde technology.The number of case of blade core is limited. But, the full-scale reduction sequence and crest technology exist in Korea (agree with some part of migration model). There is natural barrier in Northern part of Korean Penninsula, rugged mountain.
+    Some blade-like assemblages might be produced by accident. And there are numerous methods of manufacturing blades or long flakes (Bar-Yosef and Kuhn 1999 sited in Lee 2013).
+    The blade technology in Korea is not related with Homo spience(The age of the oldest one in Eurasia is younger than 40 ka).(The analysis of hominin remains is practically impossible in Korea) DNA of Denisovan from Altai are sisters to Neanderthals (Reich et al., 2010; Meyer et al.,2012 sited in Lee 2013). Korean blades seem ti be the result of a founder effect by pre-modern humans. (Maybe South-model of Bae's assertion is possible.)
+    He suggests the notion of "the ancestor and descendant relationship".
+    
+    
+Migration/trade interaction model-modified version of migration model
 "NO documented evidence of migration" 
 "Small frequency of new technology-blades and stemmed points at the beginning (slow introduction) of the Late Plaeolithicm but still most of assemblage were dominated by traditional lithics"
 "Possiblity of long distance migration: obsidian, Arca shells"
-e.g.Lee?: mixing model?/ (He says new technologies was introduced but didn't change traditional assemblages) 
+
+    
      
 
 
@@ -58,11 +76,13 @@ e.g.Lee?: mixing model?/ (He says new technologies was introduced but didn't cha
 
 hunter-gatherer's/Binford- functional explanation
 natural selection- apply to functional explanation - such as evolutionary explanation- but hard to verify/ unproveable. for example- no proxy in attribute of lithic. but zoo archaeology- it works
-??????????????? ??? ??? ?????????????????? ????????? ????????? ?????????? -markov-chain.????????? ??? ???????????????
+-markov-chain.
 community noum (reading and check all readind and case and then determine whether or not this case is general or is hard to explain in general way) and practice
 informal-high probability
 
 ##Conclusion
+
+
 
 ##Reference
 
@@ -80,10 +100,4 @@ Lee, H., 2013. Current observations of the early Late Paleolithic in Korea. Quat
 So far, blade/microblade technology has been regarded as symbol of modern human. But current evidences support the counterargument of those relationship. In other words, there is some cases which illustrate no relationship between blade/microblade technology and human. For example, the technology got started ealier than evolution towards modern Homo sapiens in Africa. In addition, there is no blade/microblade eventhough modern human reached until Southeast Asia (Shea et al.,Bae & Bae 2012).   
 
 (2) the Korean Late Paleolithic can be divided into two cultural stages: 1) an initial blade technology that appears sometime between 40 and 36ka; 2)around 25ka microblade begin to appear 
-
-
-
-             
-
-
 
