@@ -1,13 +1,36 @@
 ---
 title: "Qualitativeassignment"
-author: "Gayoung Park"
-date: "2015. 4. 22."
-output: html_document
+shorttitle: "Scientific explantion of starting point of Korean Upper Paleolithic"
+author: "Gayoung Park$^1$"
+affiliation: |
+  $^1$University of Washington
+ 
+abstract: |
+
+  
+note: |
+  
+  
+keywords: ""
+
+class: man
+lang: american
+figsintext: no
+lineno: yes
+bibliography:
+  - r-references.bib
+
+output: papaja::apa6_pdf
 ---
+
+```{r message = FALSE, warning = FALSE}
+require("papaja")
+apa_prepare_doc() # Prepare document for rendering
+```
 
 ##Introduction
 
-Most problematic and popular issue is about the starting point and origin of upper Paleolithic period (MIS 3-2 transition). Some people insist that emergence of blade (32,000 BP) is the starting point while others think stemmed point (35,000 BP) indicate the start. And the origin of upper Paleolithic had been regarded as coming from Shuidonggou. However, nowadays this concept starts to be rethink about the theory. The dates of the similar sites in Korea turned out being earlier than Shuidonggou. Therefore people find the new origin and present three different models despite the huge gap of North Korea (Bae 2012). First model is in situ evolutionary model which is blade, stemmed point and other upper Paleolithic assemblages autonomously emerged in the South of Korean peninsula. Second one is migration model. From the north, not China, people came to the Korean peninsula with new stone tool. Last one is traded and exchange model mixing with migration one. Once people with new technology settled down in the north part of Korea and then give their knowledge or lithics to other group. 
+Most problematic and popular issue is about the starting point and origin of upper Paleolithic period (MIS 3-2 transition). Some people insist that emergence of blade (32,000 BP) is the starting point while others think stemmed point (35,000 BP) indicate the start. And the origin of upper Paleolithic had been regarded as coming from Shuidonggou. However, nowadays this concept starts to be rethink about the theory. The dates of the similar sites in Korea turned out being earlier than Shuidonggou (Brantingham 2004; Brantingham et al. 2004; Bar-Yosef 2007 all sited in Seong 2009). Therefore people find the new origin and present three different models despite the huge gap of North Korea (Bae 2012). First model is in situ evolutionary model which is blade, stemmed point and other upper Paleolithic assemblages autonomously emerged in the South of Korean peninsula. Second one is migration model. From the north, not China, people came to the Korean peninsula with new stone tool. Last one is traded and exchange model mixing with migration one. Once people with new technology settled down in the north part of Korea and then give their knowledge or lithics to other group. 
 
 In this project, I would like to focus those three models and verify each one based on archaeological evidences and links between evidences and behaviors. 
 
@@ -19,12 +42,14 @@ blade/micro-blade technologies, stemmed points (new),traditional core and flake,
 Stone toolkits such as core and blade of Early Paleolithic continue to be comprised of Late Paleolithic in Korea while other lithic assemblages are comprised of blade and microblade ston tools (Bae 2012)
 
 
+
 ##Links between evidence and behavior
 migration or trade or both
+essential factors to illustrate modern human behaviors:raw material availability, subsistence, and mobility systems
 
 ##Behavior at different scales
 between indigenous foragers and non-indigenous
-amoung indigenous
+among indigenous
 
 ##Discussion
 
@@ -37,6 +62,36 @@ Main reason of the debates is that the related Korean archaeological records do 
       "The change of using blade and blade tool is viewed as slow, evolutionary process that eventually culimated        in the Late Paleolithic transition"  
       "The increasind frequency of blades in these sites is evidence for in situ model"
       "Similar subsistene pattern: making stemmed point and then microblade" 
+      His argument is based on "modern human behavior" which I don't agree as Lee's opinion.(Seong 2009) 
+      He regards the modern human behavior as "pattern"-world wide one. Then, does it mean DN?/ontic? He applies the pattern into Korean case.. (He didn't mention about modern human itself)
+      ->generalized strategy to a formalized technology in the Late Pleistocene can be understood by the interplay of various factors, raw material availability, subsistence, and mobility systems and so one. He thinks that those changes can indicate evolution. And he concludes that the case of Korean Upper Paleolithic is fit into the pattern. In addition, Population density, growing intensity of competition among local populations, complex site structure, and specializtion in animal exploitation were changed in Upper Paleolithic (Gamble 1999; Gilman 1984; McBrearty and Brooks 2000; Whallon 1989, 2006 all sited in Seong 2009).(But Seoung doesn't mention about the exact evidence of increased population.)
+      He asserts that case of Asia is different with Europe, for example, Mousterian failed to reach to East Asia. And that's why similar tendency should be understood in the evolution approach emphasizing "adaptation" . 
+      Main mechanism: climate changed -> toolkits also changed ex) need for projectile technology
+                                      -> uneven resource distribution -> increasing mobility and increasing social networks => blade technology     
+      (The mechanism itself is causal..)
+      How and why blades bacames so widespread? = due to changes in settlement and subsistence systems, social structure, and population dynamics. 
+      High mobility: formal/generalized (standardized?) tools (and preparing core/blank which is suitable shape and size) represent reduction of production cost and associated with high monility since it minimizeds the weight of artifacts hunter-gatherers need to carry. But I think this argument is not more related with starting point but phase 2.
+      <His evidence>
+      (1)individual site in the sequence of stratified sites
+      -in a site: different characteristic according to time differnece
+      -difference between each site
+      => high mobility
+      -check all site->IBE??
+      
+      (2)chronological sequence
+      -no significant difference before 40,000
+      -significannt difference between 40,000 and 30,000 : blades and SP were recovered at middle cultural horizons at Hwadae-ri, Hopyeong-dong, and Youngho-dong and these artifact types dominate the lithic assemblages from Yongsan-dong and Gorye-ri. (Which is same with my phases)
+      
+      (3)change in lithic assemblages
+      -from earlier cobble- and pebble-tool-dominated assemblages to endscrapers, burins, and backed knives and produced from relatively high quality vein quartz. 
+      -same kinds of tool such as choppers and polyhedrals: their size and frequency seem to have decreased
+      
+      (4)change in SP and blade assemblages
+      -comparing the ratio: blade to flake ratio, large tool/small too ratio, and ratio of growing reliance on blade.-SP was kept using until microblade period (Jangheung-ri, Suyanggae, Jingeunul, Seockjang-ri, Sinbuk, and Wolpyeong).
+      
+      (5)Raw material change
+      -use new material for blade and related lithics: fine-grained raw materials such as siliceous shale or siliceous tuff(from quartzite and vein quartz): often not available in certain location -> move or trade -> increasing mobility and increasing social networks
+      -obsidian from Mt. Baekdu, Kyushu, and Hokkaido sources (Lee 2008 sited in Seong 2009)
 
 (2)Bae: migration, unification/ ontic
      "Combination of different foraging groups emigrating from Siberia and southern China"
@@ -49,6 +104,7 @@ Main reason of the debates is that the related Korean archaeological records do 
 Law like statement: modern people -> migrate -> all modern people migrate -> it started upper Paleolithic
 But it seems Salmon's causual!
 
+Unification/(causality)
 
 (3)Lee?: mixing model?/ (He says new technologies was introduced but didn't change traditional assemblages) 
     Basically His argument was originated from errors of others'.--foil?
@@ -56,7 +112,7 @@ But it seems Salmon's causual!
     Also blade technology did not replace the prexisiting assemblage.
     Ful-fledged simple core and flake tool assemblages (SCFA-pre/coexisting traditional assemblage) seems to reoccur around 100 ka and flourish unrtil 30ka. During the blade period, the SCFA exhibits the general characteristics withouth a wide range of variation within assemblage. 
     Blade-based lithic technology initially starts around 35 ka in Korea (Bae,2010).
-    Evolutionary thoey (in situ) does not make sense due to absence of any predetermined lithic strategies that require extensive preparation, such as Levallois technique (Bar-Yosef and Kuhn 1999 sited in Lee 2013). And migration model should have Levallois technique too because Levallois technology is comprised of not only the Levallois technique, but also blades.
+    Evolutionary thoery (in situ) does not make sense due to absence of any predetermined lithic strategies that require extensive preparation, such as Levallois technique (Bar-Yosef and Kuhn 1999 sited in Lee 2013). And migration model should have Levallois technique too because Levallois technology is comprised of not only the Levallois technique, but also blades.
     The most possible region the blade might originated from (migration thoery) is Altai region and 50ka (micro blade-30ka) based on evidence from Denisova Cave (Derevianko 2011 sited in Lee 2013). But there is huge time gap between Altai and Korea though the initial period of blade introduction is still not clear in Korea. The Korean blade assemblage from the period does not show sophisticated balde technology.The number of case of blade core is limited. But, the full-scale reduction sequence and crest technology exist in Korea (agree with some part of migration model). There is natural barrier in Northern part of Korean Penninsula, rugged mountain.
     Some blade-like assemblages might be produced by accident. And there are numerous methods of manufacturing blades or long flakes (Bar-Yosef and Kuhn 1999 sited in Lee 2013).
     The blade technology in Korea is not related with Homo spience(The age of the oldest one in Eurasia is younger than 40 ka).(The analysis of hominin remains is practically impossible in Korea) DNA of Denisovan from Altai are sisters to Neanderthals (Reich et al., 2010; Meyer et al.,2012 sited in Lee 2013). Korean blades seem ti be the result of a founder effect by pre-modern humans. (Maybe South-model of Bae's assertion is possible.)
@@ -68,7 +124,7 @@ Migration/trade interaction model-modified version of migration model
 "Small frequency of new technology-blades and stemmed points at the beginning (slow introduction) of the Late Plaeolithicm but still most of assemblage were dominated by traditional lithics"
 "Possiblity of long distance migration: obsidian, Arca shells"
 
-    
+IBE model?    
      
 
 
@@ -101,3 +157,6 @@ So far, blade/microblade technology has been regarded as symbol of modern human.
 
 (2) the Korean Late Paleolithic can be divided into two cultural stages: 1) an initial blade technology that appears sometime between 40 and 36ka; 2)around 25ka microblade begin to appear 
 
+```{r}
+r_refs(file = "r-references.bib")
+```
