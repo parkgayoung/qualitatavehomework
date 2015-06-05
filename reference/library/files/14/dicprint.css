@@ -1,0 +1,269 @@
+
+/* ::::: http://portal.nricp.go.kr/kr/script/main.css ::::: */
+
+body { background-color: rgb(255, 255, 255); background-image: url('main_bg.gif'); background-repeat: repeat-x; margin: 0px; }
+td, th { font-family: "굴림"; font-size: 9pt; color: rgb(101, 101, 101); line-height: 16px; }
+select { font-family: 돋움,arial; font-size: 9pt; color: rgb(102, 102, 102); line-height: 150%; }
+.calendar { font-family: "굴림"; font-size: 9pt; color: rgb(0, 0, 0); line-height: 16pt; }
+.culture { font-size: 14px; font-weight: bold; font-family: "??"; }
+.style81 { font-size: 12pt; font-weight: bold; font-family: "??","??"; }
+.style2 { color: rgb(0, 0, 0); font-size: 9pt; font-family: "굴림"; font-weight: bold; }
+.style4 { color: rgb(107, 74, 49); font-size: 9pt; }
+.style7 { color: rgb(102, 102, 102); background-color: rgb(255, 255, 255); font-size: 9pt; font-family: "굴림"; }
+.style77 { color: rgb(102, 102, 102); background-color: rgb(224, 225, 216); font-size: 9pt; font-family: "굴림"; }
+.style8 { color: rgb(224, 225, 216); font-size: 9pt; }
+.style9 { color: rgb(115, 99, 87); font-weight: bold; }
+.style10 { color: rgb(39, 99, 125); font-weight: bold; }
+.style11 { color: rgb(94, 115, 59); font-size: 9pt; font-family: "굴림"; }
+a.style11:link { font-family: "굴림"; font-size: 9pt; color: rgb(94, 115, 59); text-decoration: none; }
+a.style11:visited { font-family: "굴림"; font-size: 9pt; color: rgb(94, 115, 59); text-decoration: none; }
+a.style11:hover { font-family: "굴림"; font-size: 9pt; color: rgb(0, 0, 0); text-decoration: underline; }
+.title { color: rgb(94, 115, 59); font-size: 9pt; font-family: "굴림"; }
+a.title:link { font-family: "굴림"; font-size: 9pt; color: rgb(94, 115, 59); text-decoration: none; }
+a.title:visited { font-family: "굴림"; font-size: 9pt; color: rgb(94, 115, 59); text-decoration: none; }
+a.title:hover { font-family: "굴림"; font-size: 9pt; color: rgb(0, 0, 0); text-decoration: underline; }
+A.add:link { text-decoration: none; color: rgb(102, 102, 102); font-size: 12px; font-weight: bold; }
+A.add:visited { text-decoration: none; color: rgb(102, 102, 102); font-size: 12px; font-weight: bold; }
+A.add:active { text-decoration: none; color: rgb(102, 102, 102); font-size: 12px; font-weight: bold; }
+A.add:hover { text-decoration: none; color: rgb(0, 0, 0); font-size: 12px; font-weight: bold; }
+A.prev1:link { text-decoration: none; color: rgb(51, 169, 137); font-size: 12px; }
+A.prev1:visited { text-decoration: none; color: rgb(51, 169, 137); font-size: 12px; }
+A.prev1:active { text-decoration: none; color: rgb(51, 169, 137); font-size: 12px; }
+A.prev1:hover { text-decoration: none; color: rgb(1, 134, 98); font-size: 12px; }
+A.prev2:link { text-decoration: none; color: rgb(79, 132, 16); font-size: 12px; }
+A.prev2:visited { text-decoration: none; color: rgb(79, 132, 16); font-size: 12px; }
+A.prev2:active { text-decoration: none; color: rgb(79, 132, 16); font-size: 12px; }
+A.prev2:hover { text-decoration: none; color: rgb(1, 134, 98); font-size: 12px; }
+A.faq:link { text-decoration: none; color: rgb(0, 0, 0); font-size: 12px; }
+A.faq:visited { text-decoration: none; color: rgb(0, 0, 0); font-size: 12px; }
+A.faq:active { text-decoration: none; color: rgb(0, 0, 0); font-size: 12px; }
+A.faq:hover { text-decoration: none; color: rgb(255, 255, 255); font-size: 12px; }
+A.faq2:link { text-decoration: none; color: rgb(102, 102, 102); font-size: 12px; }
+A.faq2:visited { text-decoration: none; color: rgb(102, 102, 102); font-size: 12px; }
+A.faq2:active { text-decoration: none; color: rgb(102, 102, 102); font-size: 12px; }
+A.faq2:hover { text-decoration: none; color: rgb(0, 0, 0); font-size: 12px; }
+A.m_top:link { text-decoration: none; color: rgb(56, 56, 56); font-size: 12px; }
+A.m_top:visited { text-decoration: none; color: rgb(56, 56, 56); font-size: 12px; }
+A.m_top:active { text-decoration: none; color: rgb(56, 56, 56); font-size: 12px; }
+A.m_top:hover { text-decoration: none; color: rgb(0, 0, 0); font-size: 12px; }
+A.l_black:link { text-decoration: none; color: rgb(25, 25, 25); font-size: 12px; font-weight: bold; }
+A.l_black:visited { text-decoration: none; color: rgb(25, 25, 25); font-size: 12px; font-weight: bold; }
+A.l_black:active { text-decoration: none; color: rgb(25, 25, 25); font-size: 12px; font-weight: bold; }
+A.l_black:hover { text-decoration: none; color: rgb(0, 0, 0); font-size: 12px; font-weight: bold; }
+A.r_brown:link { text-decoration: none; color: rgb(187, 98, 55); font-size: 12px; font-weight: bold; }
+A.r_brown:visited { text-decoration: none; color: rgb(187, 98, 55); font-size: 12px; font-weight: bold; }
+A.r_brown:active { text-decoration: none; color: rgb(187, 98, 55); font-size: 12px; font-weight: bold; }
+A.r_brown:hover { text-decoration: none; color: rgb(134, 86, 64); font-size: 12px; font-weight: bold; }
+A.f_white:link { text-decoration: none; color: rgb(255, 255, 255); font-size: 12px; }
+A.f_white:visited { text-decoration: none; color: rgb(255, 255, 255); font-size: 12px; }
+A.f_white:active { text-decoration: none; color: rgb(255, 255, 255); font-size: 12px; }
+A.f_white:hover { text-decoration: underline; color: rgb(255, 255, 255); font-size: 12px; }
+A.o_brown:link { text-decoration: none; color: rgb(187, 98, 55); font-size: 12px; }
+A.o_brown:visited { text-decoration: none; color: rgb(187, 98, 55); font-size: 12px; }
+A.o_brown:active { text-decoration: none; color: rgb(187, 98, 55); font-size: 12px; }
+A.o_brown:hover { text-decoration: underline; color: rgb(187, 98, 55); font-size: 12px; }
+A.o_brown2:link { text-decoration: none; color: rgb(134, 86, 64); font-size: 12px; }
+A.o_brown2:visited { text-decoration: none; color: rgb(134, 86, 64); font-size: 12px; }
+A.o_brown2:active { text-decoration: none; color: rgb(134, 86, 64); font-size: 12px; }
+A.o_brown2:hover { text-decoration: underline; color: rgb(134, 86, 64); font-size: 12px; }
+A.poll:link { text-decoration: none; font-size: 11px; color: rgb(68, 62, 52); }
+A.poll:visited { text-decoration: none; font-size: 11px; color: rgb(68, 62, 52); }
+A.poll:active { text-decoration: none; font-size: 11px; color: rgb(68, 62, 52); }
+A.poll:hover { text-decoration: none; font-size: 11px; color: rgb(22, 22, 22); }
+.padding_L5px { color: rgb(102, 102, 102); padding-left: 5px; }
+.padding_l5t10px { color: rgb(102, 102, 102); padding-left: 5px; padding-top: 10px; padding-bottom: 10px; }
+.padding_L10px { color: rgb(0, 0, 0); padding-left: 10px; }
+input { font-family: "돋움"; font-size: 9pt; color: rgb(102, 102, 102); }
+a:link { font-family: "굴림"; font-size: 9pt; color: rgb(101, 101, 101); text-decoration: none; }
+a:visited { font-family: "굴림"; font-size: 9pt; color: rgb(101, 101, 101); text-decoration: none; }
+a:hover { font-family: "굴림"; font-size: 9pt; color: rgb(0, 0, 0); text-decoration: none; }
+.url { color: rgb(153, 102, 102); font-size: 9pt; font-family: "굴림"; font-weight: bold; }
+a.url:link { font-family: "굴림"; font-size: 9pt; color: rgb(153, 102, 102); text-decoration: none; }
+a.url:visited { font-family: "굴림"; font-size: 9pt; color: rgb(153, 102, 102); text-decoration: none; }
+a.url:hover { font-family: "굴림"; font-size: 9pt; color: rgb(153, 102, 102); text-decoration: underline; }
+a.style40:visited { font-family: "굴림"; font-size: 9pt; text-decoration: none; color: rgb(0, 0, 0); }
+a.style40:link { font-family: "굴림"; font-size: 9pt; text-decoration: none; }
+a.style40:hover { font-family: "굴림"; font-size: 9pt; text-decoration: none; color: rgb(0, 51, 255); }
+.style10:link { color: rgb(39, 99, 125); font-weight: bold; text-decoration: none; }
+.style10:visited { color: rgb(39, 99, 125); font-weight: bold; text-decoration: none; }
+.style10:hover { color: rgb(39, 99, 125); font-weight: bold; text-decoration: none; }
+a.cal_day1:link { font-family: "돋움"; font-size: 8pt; color: rgb(102, 83, 30); text-decoration: none; line-height: 13px; }
+a.cal_day1:visited { font-family: "돋움"; font-size: 8pt; color: rgb(102, 83, 30); text-decoration: none; line-height: 13px; }
+a.cal_day1:hover { font-family: "돋움"; font-size: 8pt; color: rgb(67, 49, 1); text-decoration: none; line-height: 13px; }
+a.cal_day2:link { font-family: "돋움"; font-size: 8pt; color: rgb(216, 216, 216); text-decoration: none; line-height: 13px; }
+a.cal_day2:visited { font-family: "돋움"; font-size: 8pt; color: rgb(216, 216, 216); text-decoration: none; line-height: 13px; }
+a.cal_day2:hover { font-family: "돋움"; font-size: 8pt; color: rgb(176, 176, 176); text-decoration: none; line-height: 13px; }
+.cal_yoil { font-family: dotum; color: rgb(103, 85, 119); font-size: 8pt; }
+.cal_day1 { font-family: dotum; color: rgb(102, 83, 30); font-size: 8pt; }
+.cal_day2 { font-family: dotum; color: rgb(216, 216, 216); font-size: 8pt; }
+.justify { text-align: justify; }
+.fsize_11 { font-size: 11px; }
+.f_dotum { font-family: 돋움; }
+.l_17 { line-height: 17px; }
+.l_18 { line-height: 18px; }
+.l_19 { line-height: 19px; }
+.l_25 { line-height: 25px; }
+.p_top2 { padding-top: 2px; }
+.p_top3 { padding-top: 3px; }
+.p_top4 { padding-top: 4px; }
+.p_top5 { padding-top: 5px; }
+.p_top6 { padding-top: 6px; }
+.p_top7 { padding-top: 7px; }
+.p_top8 { padding-top: 8px; }
+.p_top10 { padding-top: 10px; }
+.p_top12 { padding-top: 12px; }
+.p_top13 { padding-top: 13px; }
+.p_top15 { padding-top: 15px; }
+.p_top17 { padding-top: 17px; }
+.p_top20 { padding-top: 20px; }
+.p_top25 { padding-top: 25px; }
+.p_top30 { padding-top: 30px; }
+.p_bot2 { padding-bottom: 2px; }
+.p_bot3 { padding-bottom: 3px; }
+.p_bot5 { padding-bottom: 5px; }
+.p_bot7 { padding-bottom: 7px; }
+.p_bot8 { padding-bottom: 8px; }
+.p_bot9 { padding-bottom: 9px; }
+.p_bot10 { padding-bottom: 10px; }
+.p_bot12 { padding-bottom: 12px; }
+.p_bot15 { padding-bottom: 15px; }
+.p_bot20 { padding-bottom: 20px; }
+.p_left3 { padding-left: 3px; }
+.p_left5 { padding-left: 5px; }
+.p_left7 { padding-left: 7px; }
+.p_left8 { padding-left: 8px; }
+.p_left10 { padding-left: 10px; }
+.p_left12 { padding-left: 12px; }
+.p_left13 { padding-left: 13px; }
+.p_left15 { padding-left: 15px; }
+.p_left17 { padding-left: 17px; }
+.p_left20 { padding-left: 20px; }
+.p_left22 { padding-left: 22px; }
+.p_left25 { padding-left: 25px; }
+.p_left30 { padding-left: 30px; }
+.p_right3 { padding-right: 3px; }
+.p_right5 { padding-right: 5px; }
+.p_right8 { padding-right: 8px; }
+.p_right10 { padding-right: 10px; }
+.p_right11 { padding-right: 11px; }
+.p_right15 { padding-right: 15px; }
+.p_right20 { padding-right: 20px; }
+.p_right25 { padding-right: 25px; }
+.back_no { background-repeat: no-repeat; }
+.back-x { background-repeat: repeat-x; }
+.back-y { background-repeat: repeat-y; }
+.bold { font-weight: bold; }
+.f_11 { font-size: 11px; }
+.f_black { color: rgb(0, 0, 0); }
+.f_white { color: rgb(255, 255, 255); }
+.c_707070 { color: rgb(112, 112, 112); }
+.f333333 { color: rgb(51, 51, 51); }
+.fDF5F1F { color: rgb(223, 95, 31); }
+.fFFFFFF { color: rgb(255, 255, 255); }
+.fBB6237 { color: rgb(187, 98, 55); }
+.fF3784E { color: rgb(243, 120, 78); }
+.fEF6518 { color: rgb(239, 101, 24); }
+.f56523D { color: rgb(86, 82, 61); }
+.f393939 { color: rgb(57, 57, 57); }
+.f865640 { color: rgb(134, 86, 64); }
+.fBB6237 { color: rgb(187, 98, 55); }
+.f5A998D { color: rgb(90, 153, 141); }
+.b_color1 { background-color: rgb(134, 86, 64); }
+.b_color2 { background-color: rgb(187, 98, 55); }
+.history_year { color: rgb(167, 135, 102); font-family: dotum; }
+.history_text { font-family: dotum; text-align: justify; }
+.popup_title1 { font-family: dotum; font-weight: bold; color: rgb(255, 255, 255); font-size: 30pt; padding-left: 18px; }
+.weekly { color: rgb(112, 112, 112); font-family: dotum; }
+.week { color: rgb(91, 151, 212); font-family: dotum; padding-top: 6px; }
+.week_sun { color: rgb(244, 138, 44); font-family: dotum; padding-top: 6px; }
+.day { color: rgb(113, 113, 113); font-family: dotum; padding-top: 6px; padding-left: 4px; }
+.day_sun { color: rgb(244, 138, 44); font-family: dotum; padding-top: 6px; }
+.board_title1 { color: rgb(255, 255, 255); font-weight: bold; padding-top: 8px; }
+.view_title1 { font-weight: bold; color: rgb(10, 151, 116); padding-top: 6px; }
+.reply_title1 { font-weight: bold; color: rgb(187, 98, 55); padding-top: 6px; }
+.write_title1 { color: rgb(10, 151, 116); padding-top: 8px; }
+.write_text1 { border: 1px solid rgb(212, 212, 212); height: 20px; font-family: gulim; }
+.write_textarea1 { border: 1px solid rgb(212, 212, 212); font-family: gulim; }
+.search_text { border: 1px solid rgb(205, 205, 205); height: 20px; font-family: gulim; }
+.view_title2 { font-weight: bold; color: rgb(79, 132, 16); padding-top: 6px; }
+.view_content2 { font-weight: bold; color: rgb(112, 159, 53); padding-top: 6px; }
+.reply_title2 { font-weight: bold; color: rgb(187, 98, 55); padding-top: 6px; }
+.write_title2 { color: rgb(10, 151, 116); padding-top: 8px; }
+.write_text2 { border: 1px solid rgb(212, 212, 212); height: 20px; font-family: gulim; }
+.write_title3 { color: rgb(68, 149, 200); padding-top: 8px; }
+.write_title4 { color: rgb(187, 98, 55); padding-top: 8px; }
+.name_title { color: rgb(134, 86, 64); font-weight: bold; padding-top: 4px; }
+.name_title2 { color: rgb(15, 15, 14); font-weight: bold; padding-top: 4px; }
+.m_title1 { color: rgb(134, 86, 64); background-color: rgb(250, 245, 237); font-weight: bold; padding-left: 16px; padding-top: 8px; }
+.m_title2 { color: rgb(134, 86, 64); background-color: rgb(250, 245, 237); font-weight: bold; padding-left: 26px; padding-top: 8px; }
+.p_title1 { color: rgb(243, 120, 78); font-weight: bold; padding-top: 12px; }
+.m_lpad8 { padding-left: 8px; }
+.m_tpad3 { padding-top: 3px; }
+.m_tpad4 { padding-top: 4px; }
+.m_tpad5 { padding-top: 5px; }
+.m_text { border: 1px solid rgb(208, 201, 197); height: 18px; }
+.m_text2 { border: 1px solid rgb(181, 181, 181); height: 18px; }
+
+/* ::::: http://portal.nricp.go.kr/kr/data/script/data.css ::::: */
+
+.menu { padding-left: 5px; padding-right: 5px; padding-top: 3px; }
+.dir_title { color: rgb(51, 102, 153); font-weight: bold; padding-top: 2px; }
+.pos { color: rgb(119, 119, 119); font-size: 11px; padding-bottom: 5px; }
+.t_title1 { color: rgb(97, 85, 68); font-weight: bold; padding-top: 3px; }
+.t_title2 { color: rgb(83, 83, 83); font-weight: bold; padding-top: 5px; }
+.t_title3 { color: rgb(51, 51, 51); font-weight: bold; padding-top: 3px; }
+.study_title { color: rgb(84, 175, 89); font-weight: bold; }
+.mkr_list1 { font-family: ����; color: rgb(94, 94, 94); padding-top: 8px; padding-bottom: 5px; }
+A.d_menu:link { text-decoration: none; color: rgb(125, 75, 30); font-size: 12px; font-weight: bold; }
+A.d_menu:visited { text-decoration: none; color: rgb(125, 75, 30); font-size: 12px; font-weight: bold; }
+A.d_menu:active { text-decoration: none; color: rgb(125, 75, 30); font-size: 12px; font-weight: bold; }
+A.d_menu:hover { text-decoration: none; color: rgb(55, 26, 0); font-size: 12px; font-weight: bold; }
+A.d_link1:link { text-decoration: none; color: rgb(90, 90, 90); font-size: 12px; }
+A.d_link1:visited { text-decoration: none; color: rgb(90, 90, 90); font-size: 12px; }
+A.d_link1:active { text-decoration: none; color: rgb(90, 90, 90); font-size: 12px; }
+A.d_link1:hover { text-decoration: none; color: rgb(0, 0, 0); font-size: 12px; }
+A.d_link2:link { text-decoration: none; color: rgb(80, 75, 47); font-size: 12px; }
+A.d_link2:visited { text-decoration: none; color: rgb(80, 75, 47); font-size: 12px; }
+A.d_link2:active { text-decoration: none; color: rgb(80, 75, 47); font-size: 12px; }
+A.d_link2:hover { text-decoration: none; color: rgb(144, 138, 102); font-size: 12px; }
+A.d_link3:link { text-decoration: underline; color: rgb(90, 90, 90); font-size: 12px; }
+A.d_link3:visited { text-decoration: underline; color: rgb(90, 90, 90); font-size: 12px; }
+A.d_link3:active { text-decoration: underline; color: rgb(90, 90, 90); font-size: 12px; }
+A.d_link3:hover { text-decoration: underline; color: rgb(18, 18, 18); font-size: 12px; }
+A.d_link4:link { text-decoration: none; color: rgb(102, 102, 102); font-size: 12px; padding-top: 4px; }
+A.d_link4:visited { text-decoration: none; color: rgb(102, 102, 102); font-size: 12px; padding-top: 4px; }
+A.d_link4:active { text-decoration: none; color: rgb(102, 102, 102); font-size: 12px; padding-top: 4px; }
+A.d_link4:hover { text-decoration: none; color: rgb(28, 127, 188); font-size: 12px; padding-top: 4px; }
+A.d_link5:link { text-decoration: none; color: rgb(76, 76, 76); font-size: 12px; font-weight: bold; }
+A.d_link5:visited { text-decoration: none; color: rgb(76, 76, 76); font-size: 12px; font-weight: bold; }
+A.d_link5:active { text-decoration: none; color: rgb(76, 76, 76); font-size: 12px; font-weight: bold; }
+A.d_link5:hover { text-decoration: none; color: rgb(76, 76, 76); font-size: 12px; font-weight: bold; }
+A.d_link6:link { text-decoration: none; color: rgb(90, 90, 90); font-size: 12px; font-weight: bold; }
+A.d_link6:visited { text-decoration: none; color: rgb(90, 90, 90); font-size: 12px; font-weight: bold; }
+A.d_link6:active { text-decoration: none; color: rgb(90, 90, 90); font-size: 12px; font-weight: bold; }
+A.d_link6:hover { text-decoration: none; color: rgb(0, 0, 0); font-size: 12px; font-weight: bold; }
+A.stu_link1:link { text-decoration: none; color: rgb(135, 135, 135); font-size: 11px; }
+A.stu_link1:visited { text-decoration: none; color: rgb(135, 135, 135); font-size: 11px; }
+A.stu_link1:active { text-decoration: none; color: rgb(135, 135, 135); font-size: 11px; }
+A.stu_link1:hover { text-decoration: none; color: rgb(76, 76, 76); font-size: 11px; }
+A.menu1:link { text-decoration: none; color: rgb(56, 56, 56); font-size: 12px; font-weight: bold; }
+A.menu1:visited { text-decoration: none; color: rgb(56, 56, 56); font-size: 12px; font-weight: bold; }
+A.menu1:active { text-decoration: none; color: rgb(56, 56, 56); font-size: 12px; font-weight: bold; }
+A.menu1:hover { text-decoration: none; color: rgb(104, 103, 103); font-size: 12px; font-weight: bold; }
+A.smenu1:link { font-family: ����; text-decoration: none; color: rgb(102, 102, 102); font-size: 12px; }
+A.smenu1:visited { font-family: ����; text-decoration: none; color: rgb(102, 102, 102); font-size: 12px; }
+A.smenu1:active { color: rgb(102, 102, 102); font-size: 12px; }
+A.smenu1:hover { font-family: ����; text-decoration: none; color: rgb(227, 108, 2); font-size: 12px; }
+A.smenu2:link { font-family: ����; text-decoration: none; color: rgb(227, 108, 2); font-size: 12px; }
+A.smenu2:visited { font-family: ����; text-decoration: none; color: rgb(227, 108, 2); font-size: 12px; }
+A.smenu2:active { font-family: ����; text-decoration: none; color: rgb(227, 108, 2); font-size: 12px; }
+A.smenu2:hover { font-family: ����; text-decoration: none; color: rgb(227, 108, 2); font-size: 12px; }
+A.mkr_list1:link { font-family: ����; text-decoration: none; color: rgb(94, 94, 94); }
+A.mkr_list1:visited { font-family: ����; text-decoration: none; color: rgb(94, 94, 94); }
+A.mkr_list1:active { font-family: ����; text-decoration: none; color: rgb(94, 94, 94); }
+A.mkr_list1:hover { font-family: ����; text-decoration: none; color: rgb(41, 41, 41); }
+A.site:link { text-decoration: none; color: rgb(0, 60, 122); font-size: 11px; font-family: verdana; }
+A.site:visited { text-decoration: none; color: rgb(0, 60, 122); font-size: 11px; }
+A.site:active { text-decoration: none; color: rgb(0, 60, 122); font-size: 11px; }
+A.site:hover { text-decoration: none; color: rgb(2, 124, 249); font-size: 11px; }
+.link01 { padding: 8px 0px 4px 4px; font-weight: bold; }

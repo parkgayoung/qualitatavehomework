@@ -1,0 +1,2402 @@
+<!DOCTYPE html>
+<html lang="en" class="  js no-touch hashchange history svg inlinesvg svgclippaths no-ie8compat">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+
+<meta name="wpd_version" content="0.2">
+<meta name="wpd_baseurl" content="http://www.jstor.org.offcampus.lib.washington.edu/stable/40288025?seq=1#page_scan_tab_contents">
+<meta name="wpd_url" content="http://www.jstor.org.offcampus.lib.washington.edu/stable/40288025?seq=1#page_scan_tab_contents">
+<meta name="wpd_date" content="2015-02-18T04:54Z">
+
+        
+        
+        <meta name="robots" content="noarchive,NOODP">
+        <meta name="description" content="JSTOR is a digital library of academic journals, books, and primary sources.">
+        <meta name="viewport" content="width=device-width">
+        <meta charset="UTF-8"><script src="913fae2ed4" type="text/javascript"></script><script src="star-aws.js" type="text/javascript" async=""></script><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"VwACUF9VGwoIUlJUAAA="};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o?o:e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({QJf3ax:[function(t,e){function n(t){function e(e,n,a){t&&t(e,n,a),a||(a={});for(var c=s(e),f=c.length,u=i(a,o,r),d=0;f>d;d++)c[d].apply(u,n);return u}function a(t,e){f[t]=s(t).concat(e)}function s(t){return f[t]||[]}function c(){return n(e)}var f={};return{on:a,emit:e,create:c,listeners:s,_events:f}}function r(){return{}}var o="nr@context",i=t("gos");e.exports=n()},{gos:"7eSDFh"}],ee:[function(t,e){e.exports=t("QJf3ax")},{}],3:[function(t){function e(t){try{i.console&&console.log(t)}catch(e){}}var n,r=t("ee"),o=t(1),i={};try{n=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(i.console=!0,-1!==n.indexOf("dev")&&(i.dev=!0),-1!==n.indexOf("nr_dev")&&(i.nrDev=!0))}catch(a){}i.nrDev&&r.on("internal-error",function(t){e(t.stack)}),i.dev&&r.on("fn-err",function(t,n,r){e(r.stack)}),i.dev&&(e("NR AGENT IN DEVELOPMENT MODE"),e("flags: "+o(i,function(t){return t}).join(", ")))},{1:23,ee:"QJf3ax"}],4:[function(t){function e(t,e,n,i,s){try{c?c-=1:r("err",[s||new UncaughtException(t,e,n)])}catch(f){try{r("ierr",[f,(new Date).getTime(),!0])}catch(u){}}return"function"==typeof a?a.apply(this,o(arguments)):!1}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function n(t){r("err",[t,(new Date).getTime()])}var r=t("handle"),o=t(6),i=t("ee"),a=window.onerror,s=!1,c=0;t("loader").features.err=!0,t(4),window.onerror=e;try{throw new Error}catch(f){"stack"in f&&(t(1),t(5),"addEventListener"in window&&t(2),window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&t(3),s=!0)}i.on("fn-start",function(){s&&(c+=1)}),i.on("fn-err",function(t,e,r){s&&(this.thrown=!0,n(r))}),i.on("fn-end",function(){s&&!this.thrown&&c>0&&(c-=1)}),i.on("internal-error",function(t){r("ierr",[t,(new Date).getTime(),!0])})},{1:10,2:7,3:11,4:3,5:9,6:24,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],5:[function(t){t("loader").features.ins=!0},{loader:"G9z0Bl"}],6:[function(t){function e(){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var n=t("ee"),r=t("handle"),o=t(1);t("loader").features.stn=!0,t(2),n.on("fn-start",function(t){var e=t[0];e instanceof Event&&(this.bstStart=Date.now())}),n.on("fn-end",function(t,e){var n=t[0];n instanceof Event&&r("bst",[n,e,this.bstStart,Date.now()])}),o.on("fn-start",function(t,e,n){this.bstStart=Date.now(),this.bstType=n}),o.on("fn-end",function(t,e){r("bstTimer",[e,this.bstStart,Date.now(),this.bstType])}),n.on("pushState-start",function(){this.time=Date.now(),this.startPath=location.pathname+location.hash}),n.on("pushState-end",function(){r("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),"addEventListener"in window.performance&&(window.performance.addEventListener("webkitresourcetimingbufferfull",function(){r("bstResource",[window.performance.getEntriesByType("resource")]),window.performance.webkitClearResourceTimings()},!1),window.performance.addEventListener("resourcetimingbufferfull",function(){r("bstResource",[window.performance.getEntriesByType("resource")]),window.performance.clearResourceTimings()},!1)),document.addEventListener("scroll",e,!1),document.addEventListener("keypress",e,!1),document.addEventListener("click",e,!1)}},{1:10,2:8,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],7:[function(t,e){function n(t){i.inPlace(t,["addEventListener","removeEventListener"],"-",r)}function r(t){return t[1]}var o=(t(1),t("ee").create()),i=t(2)(o),a=t("gos");if(e.exports=o,n(window),"getPrototypeOf"in Object){for(var s=document;s&&!s.hasOwnProperty("addEventListener");)s=Object.getPrototypeOf(s);s&&n(s);for(var c=XMLHttpRequest.prototype;c&&!c.hasOwnProperty("addEventListener");)c=Object.getPrototypeOf(c);c&&n(c)}else XMLHttpRequest.prototype.hasOwnProperty("addEventListener")&&n(XMLHttpRequest.prototype);o.on("addEventListener-start",function(t){if(t[1]){var e=t[1];"function"==typeof e?this.wrapped=t[1]=a(e,"nr@wrapped",function(){return i(e,"fn-",null,e.name||"anonymous")}):"function"==typeof e.handleEvent&&i.inPlace(e,["handleEvent"],"fn-")}}),o.on("removeEventListener-start",function(t){var e=this.wrapped;e&&(t[1]=e)})},{1:24,2:25,ee:"QJf3ax",gos:"7eSDFh"}],8:[function(t,e){var n=(t(2),t("ee").create()),r=t(1)(n);e.exports=n,r.inPlace(window.history,["pushState"],"-")},{1:25,2:24,ee:"QJf3ax"}],9:[function(t,e){var n=(t(2),t("ee").create()),r=t(1)(n);e.exports=n,r.inPlace(window,["requestAnimationFrame","mozRequestAnimationFrame","webkitRequestAnimationFrame","msRequestAnimationFrame"],"raf-"),n.on("raf-start",function(t){t[0]=r(t[0],"fn-")})},{1:25,2:24,ee:"QJf3ax"}],10:[function(t,e){function n(t,e,n){var r=t[0];"string"==typeof r&&(r=new Function(r)),t[0]=o(r,"fn-",null,n)}var r=(t(2),t("ee").create()),o=t(1)(r);e.exports=r,o.inPlace(window,["setTimeout","setInterval","setImmediate"],"setTimer-"),r.on("setTimer-start",n)},{1:25,2:24,ee:"QJf3ax"}],11:[function(t,e){function n(){f.inPlace(this,p,"fn-")}function r(t,e){f.inPlace(e,["onreadystatechange"],"fn-")}function o(t,e){return e}function i(t,e){for(var n in t)e[n]=t[n];return e}var a=t("ee").create(),s=t(1),c=t(2),f=c(a),u=c(s),d=window.XMLHttpRequest,p=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"];e.exports=a,window.XMLHttpRequest=function(t){var e=new d(t);try{a.emit("new-xhr",[],e),u.inPlace(e,["addEventListener","removeEventListener"],"-",function(t,e){return e}),e.addEventListener("readystatechange",n,!1)}catch(r){try{a.emit("internal-error",[r])}catch(o){}}return e},i(d,XMLHttpRequest),XMLHttpRequest.prototype=d.prototype,f.inPlace(XMLHttpRequest.prototype,["open","send"],"-xhr-",o),a.on("send-xhr-start",r),a.on("open-xhr-start",r)},{1:7,2:25,ee:"QJf3ax"}],12:[function(t){function e(t){if("string"==typeof t&&t.length)return t.length;if("object"!=typeof t)return void 0;if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if("undefined"!=typeof FormData&&t instanceof FormData)return void 0;try{return JSON.stringify(t).length}catch(e){return void 0}}function n(t){var n=this.params,r=this.metrics;if(!this.ended){this.ended=!0;for(var i=0;c>i;i++)t.removeEventListener(s[i],this.listener,!1);if(!n.aborted){if(r.duration=(new Date).getTime()-this.startTime,4===t.readyState){n.status=t.status;var a=t.responseType,f="arraybuffer"===a||"blob"===a||"json"===a?t.response:t.responseText,u=e(f);if(u&&(r.rxSize=u),this.sameOrigin){var d=t.getResponseHeader("X-NewRelic-App-Data");d&&(n.cat=d.split(", ").pop())}}else n.status=0;r.cbTime=this.cbTime,o("xhr",[n,r,this.startTime])}}}function r(t,e){var n=i(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}if(window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent)){t("loader").features.xhr=!0;var o=t("handle"),i=t(2),a=t("ee"),s=["load","error","abort","timeout"],c=s.length,f=t(1);t(4),t(3),a.on("new-xhr",function(){this.totalCbs=0,this.called=0,this.cbTime=0,this.end=n,this.ended=!1,this.xhrGuids={}}),a.on("open-xhr-start",function(t){this.params={method:t[0]},r(this,t[1]),this.metrics={}}),a.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),a.on("send-xhr-start",function(t,n){var r=this.metrics,o=t[0],i=this;if(r&&o){var f=e(o);f&&(r.txSize=f)}this.startTime=(new Date).getTime(),this.listener=function(t){try{"abort"===t.type&&(i.params.aborted=!0),("load"!==t.type||i.called===i.totalCbs&&(i.onloadCalled||"function"!=typeof n.onload))&&i.end(n)}catch(e){try{a.emit("internal-error",[e])}catch(r){}}};for(var u=0;c>u;u++)n.addEventListener(s[u],this.listener,!1)}),a.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),a.on("xhr-load-added",function(t,e){var n=""+f(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),a.on("xhr-load-removed",function(t,e){var n=""+f(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),a.on("addEventListener-end",function(t,e){e instanceof XMLHttpRequest&&"load"===t[0]&&a.emit("xhr-load-added",[t[1],t[2]],e)}),a.on("removeEventListener-end",function(t,e){e instanceof XMLHttpRequest&&"load"===t[0]&&a.emit("xhr-load-removed",[t[1],t[2]],e)}),a.on("fn-start",function(t,e,n){e instanceof XMLHttpRequest&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=(new Date).getTime()))}),a.on("fn-end",function(t,e){this.xhrCbStart&&a.emit("xhr-cb-time",[(new Date).getTime()-this.xhrCbStart,this.onload,e],e)})}},{1:"XL7HBI",2:13,3:11,4:7,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],13:[function(t,e){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");return!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname),r.sameOrigin=!e.hostname||e.hostname===document.domain&&e.port===n.port&&e.protocol===n.protocol,r}},{}],14:[function(t,e){function n(t){return function(){r(t,[(new Date).getTime()].concat(i(arguments)))}}var r=t("handle"),o=t(1),i=t(2);"undefined"==typeof window.newrelic&&(newrelic=window.NREUM);var a=["setPageViewName","addPageAction","setCustomAttribute","finished","addToTrace","inlineHit","noticeError"];o(a,function(t,e){window.NREUM[e]=n("api-"+e)}),e.exports=window.NREUM},{1:23,2:24,handle:"D5DuLP"}],gos:[function(t,e){e.exports=t("7eSDFh")},{}],"7eSDFh":[function(t,e){function n(t,e,n){if(r.call(t,e))return t[e];var o=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return t[e]=o,o}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],D5DuLP:[function(t,e){function n(t,e,n){return r.listeners(t).length?r.emit(t,e,n):(o[t]||(o[t]=[]),void o[t].push(e))}var r=t("ee").create(),o={};e.exports=n,n.ee=r,r.q=o},{ee:"QJf3ax"}],handle:[function(t,e){e.exports=t("D5DuLP")},{}],XL7HBI:[function(t,e){function n(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:i(t,o,function(){return r++})}var r=1,o="nr@id",i=t("gos");e.exports=n},{gos:"7eSDFh"}],id:[function(t,e){e.exports=t("XL7HBI")},{}],loader:[function(t,e){e.exports=t("G9z0Bl")},{}],G9z0Bl:[function(t,e){function n(){var t=l.info=NREUM.info;if(t&&t.licenseKey&&t.applicationID&&f&&f.body){s(h,function(e,n){e in t||(t[e]=n)}),l.proto="https"===p.split(":")[0]||t.sslForHttp?"https://":"http://",a("mark",["onload",i()]);var e=f.createElement("script");e.src=l.proto+t.agent,f.body.appendChild(e)}}function r(){"complete"===f.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=t("handle"),s=t(1),c=(t(2),window),f=c.document,u="addEventListener",d="attachEvent",p=(""+location).split("?")[0],h={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-593.min.js"},l=e.exports={offset:i(),origin:p,features:{}};f[u]?(f[u]("DOMContentLoaded",o,!1),c[u]("load",n,!1)):(f[d]("onreadystatechange",r),c[d]("onload",n)),a("mark",["firstbyte",i()])},{1:23,2:14,handle:"D5DuLP"}],23:[function(t,e){function n(t,e){var n=[],o="",i=0;for(o in t)r.call(t,o)&&(n[i]=e(o,t[o]),i+=1);return n}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],24:[function(t,e){function n(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(0>o?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=n},{}],25:[function(t,e){function n(t){return!(t&&"function"==typeof t&&t.apply&&!t[i])}var r=t("ee"),o=t(1),i="nr@wrapper",a=Object.prototype.hasOwnProperty;e.exports=function(t){function e(t,e,r,a){function nrWrapper(){var n,i,s,f;try{i=this,n=o(arguments),s=r&&r(n,i)||{}}catch(d){u([d,"",[n,i,a],s])}c(e+"start",[n,i,a],s);try{return f=t.apply(i,n)}catch(p){throw c(e+"err",[n,i,p],s),p}finally{c(e+"end",[n,i,f],s)}}return n(t)?t:(e||(e=""),nrWrapper[i]=!0,f(t,nrWrapper),nrWrapper)}function s(t,r,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<r.length;c++)s=r[c],a=t[s],n(a)||(t[s]=e(a,f?s+o:o,i,s,t))}function c(e,n,r){try{t.emit(e,n,r)}catch(o){u([o,e,n,r])}}function f(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){u([r])}for(var o in t)a.call(t,o)&&(e[o]=t[o]);return e}function u(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=r),e.inPlace=s,e.flag=i,e}},{1:24,ee:"QJf3ax"}]},{},["G9z0Bl",4,12,6,5]);</script><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"transactionName":"MlAHYEpQC0dXV0ZRWAsaI0FWUhFdWVodWUURXAZYXWcMUUFhexZBDFASRwJCEVVUWFc=","beacon":"bam.nr-data.net","applicationID":"9863671","applicationTime":568,"errorBeacon":"bam.nr-data.net","agent":"js-agent.newrelic.com/nr-593.min.js","queueTime":0,"licenseKey":"913fae2ed4"}</script>
+        
+    
+        <meta name="ST.publisher" content="Australian Archaeological Association">
+    
+
+    
+        <meta name="ST.desc" content="ARCHIVE">
+    
+
+    <meta name="ST.printIssn" content="03122417">
+    <meta name="ST.onlineIssn" content="">
+    <meta name="ST.PlatformAPIKey" content="83e2edc873d4">
+ 
+        <link rel="apple-touch-icon" href="http://www.jstor.org.offcampus.lib.washington.edu/articleview_20150312T1350/files/shared/images/apple-touch-icon.png">
+        
+    
+
+        
+    <link rel="canonical" href="http://www.jstor.org.offcampus.lib.washington.edu/stable/40288025">
+
+        <title>Three Styles of Darwinian Evolution in the Analysis of Stone Artefacts: Which One to Use in Mainland Southeast Asia? on JSTOR</title>
+        <script src="jquery-1-10-2.js"></script>
+    <meta class="foundation-data-attribute-namespace"><meta class="foundation-mq-xxlarge"><meta class="foundation-mq-xlarge"><meta class="foundation-mq-large"><meta class="foundation-mq-medium"><meta class="foundation-mq-small">
+<link rel="stylesheet" type="text/css" href="40288025.css" media="all">
+</head>
+<body>
+        
+        
+        <div id="skipNav">
+            <a class="visuallyhidden" href="#content">Skip to Main Content</a>
+        </div>
+        
+        <nav id="nav-global" role="navigation">
+    <ul class=" inline-list menu menu-global">
+        <li class="name">
+            <a href="http://www.jstor.org.offcampus.lib.washington.edu/" class="menu-heading" id="menu-global-home">JSTOR Home</a>
+        </li>
+        <li class="has-dropdown"><a href="http://www.jstor.org.offcampus.lib.washington.edu/action/showAdvancedSearch" class="menu-heading" id="menu-global-search">Search</a>
+            <ul class="dropdown">
+                <li><a href="http://www.jstor.org.offcampus.lib.washington.edu/action/showAdvancedSearch">Advanced Search</a></li>
+                <li><a href="http://www.jstor.org.offcampus.lib.washington.edu/action/showArticleLocator">Citation Locator</a></li>
+            </ul>
+        </li>
+        <li class="has-dropdown"><a href="http://www.jstor.org.offcampus.lib.washington.edu/action/showJournals" class="menu-heading" id="menu-global-browse">Browse</a>
+            <ul class="dropdown">
+                <li><a href="http://www.jstor.org.offcampus.lib.washington.edu/action/showJournals">by Subject</a></li>
+                <li><a href="http://www.jstor.org.offcampus.lib.washington.edu/action/showJournals?browseType=title">by Title</a></li>
+                <li><a href="http://www.jstor.org.offcampus.lib.washington.edu/action/showJournals?browseType=publisherInstance">by Publisher</a></li>
+            </ul>
+        </li>
+        <li class="has-dropdown"><a href="http://www.jstor.org.offcampus.lib.washington.edu/action/myJstorSettings" class="menu-heading" id="menu-global-myjstor">MyJSTOR</a>
+            <ul class="dropdown">
+                <li><a href="http://www.jstor.org.offcampus.lib.washington.edu/action/myJstorSettings">Saved Citations</a></li>
+                <li><a href="http://www.jstor.org.offcampus.lib.washington.edu/action/showAlertSettings?myJstor=true">Journal Alerts</a></li>
+                <li><a href="http://www.jstor.org.offcampus.lib.washington.edu/action/doSavedSearch?myJstor=true&amp;action=savedSearch">Search Alerts</a></li>
+                <li><a href="http://www.jstor.org.offcampus.lib.washington.edu/action/showShelf">Shelf</a></li>
+                <li><a href="http://www.jstor.org.offcampus.lib.washington.edu/action/showSubscriptions">JPASS Downloads</a></li>
+                <li><a href="http://www.jstor.org.offcampus.lib.washington.edu/action/showPurchases">Purchase History</a></li>
+                <li><a href="http://www.jstor.org.offcampus.lib.washington.edu/action/showRegistrationUpdate?myJstor=true">My Profile</a></li>
+                
+                
+                
+            </ul>
+        </li>
+    </ul>
+    
+</nav>
+
+        
+        <div id="content" role="main" class="content row">
+            
+    
+        <div class="article-view small-12 columns brandingStripe">
+            <div class="row">
+                <div class="small-12 large-8 columns">
+                    
+    
+    <div class="row mtm">
+        
+        <div class="columns small-12 xlarge-6 xlarge-offset-6">
+            <form role="form" class="form-jstor basic-search-form row collapse" action="http://www.jstor.org.offcampus.lib.washington.edu/action/doBasicSearch" method="GET">
+    
+    <div class="small-6 medium-8 large-7 columns">
+        
+        <input title="Search Box" name="Query" class="searchBox small" placeholder="" value="" type="text">
+    </div>
+    
+        <div class="small-4 medium-3 large-4 columns">
+            <div class="selectContainer">
+                <label class="visuallyhidden" for="QSFSearchFilter">Filter search by</label>
+                <select name="filter" id="QSFSearchFilter">
+                    
+                        <option value="iid:10.2307/i40011561" selected="selected">In This Issue</option>
+                    
+                        <option value="jid:10.2307/j50000545">In This Title</option>
+                    
+                        <option value="">All Content</option>
+                    
+                </select>
+            </div>
+        </div>
+    
+    <button type="submit" class="button tiny small-2 medium-1 columns">Search</button>
+    
+</form>
+
+        </div>
+    </div>
+
+                    
+                </div>
+                <div class="large-4 show-for-large-up columns prn">
+                    
+
+<ul id="nav-support" class=" menu menu-subcontent  inline-list">
+  
+    <li><a href="http://www.jstor.org.offcampus.lib.washington.edu/"><img src="jstor_logo.jpg" alt="JSTOR"></a></li>
+    
+        <li><a href="http://www.jstor.org.offcampus.lib.washington.edu/action/showLogin?redirectUri=%2Fstable%2F40288025">Login</a></li>
+    
+    <li><a href="http://about.jstor.org.offcampus.lib.washington.edu/support-training/help" target="_top" title="This link opens in a new window">Help</a></li>
+    <li><a href="http://www.jstor.org.offcampus.lib.washington.edu/action/showContactUSMain">Contact Us</a></li>
+    <li><a href="http://about.jstor.org.offcampus.lib.washington.edu/" target="_top" title="This link opens in a new window">About</a></li>
+  
+</ul>
+
+    
+
+                </div>
+            </div>
+            <div class="article-view-info">
+                
+                <div class="row">
+                    <div class="small-12 large-8 columns">
+                    
+                        <div class="row">
+                            <div class="small-12 columns">
+                                <ul class="breadcrumbs ">
+                                
+                                    <li class="breadcrumb-journal"><a href="http://www.jstor.org.offcampus.lib.washington.edu/action/showPublication?journalCode=austarch">Australian Archaeology</a></li>
+                                    <li class="breadcrumb-issue">
+                                        <a href="http://www.jstor.org.offcampus.lib.washington.edu/stable/i40011561">No. 67, Dec., 2008</a></li>
+                                    <li class="breadcrumb-article current">Three Styles of D...</li>
+                                
+                                </ul>
+                            </div>
+                        </div>    
+                        <div class="row">
+                            <div class="small-12 xlarge-8 columns">
+                                
+
+
+<div class="row">
+    
+    <div class="small-12 medium-4 columns">
+        <a class="cover-url" href="http://www.jstor.org.offcampus.lib.washington.edu/action/showPublication?journalCode=austarch"><img class="cover" src="cover.gif" alt="Australian Archaeology"></a>
+    </div>
+    
+    <div class="small-12 medium-8 columns ">    
+        
+            
+                <h1 class="title">Three Styles of Darwinian Evolution in the Analysis of Stone Artefacts: Which One to Use in Mainland Southeast Asia?</h1>
+            
+            
+                <div class="contrib">
+
+                    
+Ben Marwick
+                </div>
+            
+        
+        
+            <div class="journal">
+                <cite>Australian Archaeology</cite>
+            </div>
+            <div class="src mbl">
+
+                No. 67, More Unconsidered Trifles: Papers to Celebrate the Career of Sandra Bowdler (Dec., 2008), pp. 79-86
+            </div>
+            
+                <div class="publisher">
+
+                    Published by: <a href="http://www.jstor.org.offcampus.lib.washington.edu/action/showPublisher?publisherCode=aaa" class="publisher-link">Australian Archaeological Association</a>
+                </div>
+             
+        
+        <div class="stable">
+
+            Stable URL: http://www.jstor.org/stable/40288025
+        </div>
+        <div class="count">
+
+            Page Count: 8
+        </div>
+    </div>
+</div>
+
+                            </div>
+                            <div class="small-12 xlarge-4 columns">
+                                
+
+
+
+    
+        
+        <script id="tpl-termsAndConditionsPDF" type="text/x-handlebars-template">
+
+        
+            
+
+    <div id="termsAndConditionsPDF" class="overlay-jstor-modal small" data-reveal role="dialog">
+        <header class="headerBottomLines overlayHeader row collapse mbl">
+            <h2 class="columns small-10">JSTOR Terms and Conditions</h2>
+            <a href="#" class="close columns small-2 text-right mts">X <span class="visuallyhidden">Close Overlay</span></a>
+        </header>
+        <p>Your use of the JSTOR archive indicates your acceptance of JSTOR's <a href="/page/info/about/policies/terms.jsp" target="_blank">Terms and Conditions</a>. Sign up for a <a href="/action/showRegistrationUpdate?myJstor=true">MyJSTOR</a> account to permanently save your acceptance of the Terms and Conditions.</p>
+        <p>
+            <a
+            id="acceptTC"
+            class="button button-jstor mrs mvm"
+            href="{{ linkHref }}"
+            data-doi="{{ doi }}"
+            data-yop="{{ yop }}"
+            data-isbn="{{ isbn }}"
+            data-issn="{{ issn }}"
+            data-eissn="{{ eissn }}"
+            data-publisher="{{ publisher }}"
+            data-resulttype="{{ resulttype }}"
+            data-itemtitle="{{ itemtitle }}"
+            data-contenttitle="{{ contenttitle }}"
+            >
+                I Accept 
+            </a>
+            <span class="acceptTC-text">
+            JSTOR's Terms and Conditions, proceed to PDF</span>
+        </p>
+    </div>
+
+        
+        </script>
+    
+    
+
+
+<ul class="action-buttons">
+    
+<li class="download-pdf-button" data-tc-accepted="False">
+
+    <a href="http://www.jstor.org.offcampus.lib.washington.edu/stable/pdf/40288025.pdf" target="_top" class="button button-jstor pdfLink">Download PDF</a>
+
+</li>
+
+
+    <li class="citation-tools-button">
+        <a href="#" class="button button-jstor has-dropdown" data-dropdown="citation-tools-drop">
+
+            Citation Tools
+        </a>
+        <ul id="citation-tools-drop" data-doi="10.2307/40288025" data-title="Three Styles of Darwinian Evolution in the Analysis of Stone Artefacts: Which One to Use in Mainland Southeast Asia?" data-dropdown-content="" class="f-dropdown content txtL">
+            <li class="save-citation">
+                <a href="http://www.jstor.org.offcampus.lib.washington.edu/action/addFavoritePublication?jid=10.2307/40288025&amp;redirectUri=/stable/40288025?saveCitation=true">
+
+                    Save Citation
+                </a>
+            </li>
+            <li class="export-citation">
+                <a href="http://www.jstor.org.offcampus.lib.washington.edu/action/exportSingleCitation?singleCitation=true&amp;doi=10.2307/40288025">
+
+                    Export Citation
+                </a>
+            </li>
+            <li class="track-citation">
+                <a href="http://www.jstor.org.offcampus.lib.washington.edu/action/addCitationAlert?redirectUri=/stable/40288025?trackCitation=true&amp;doi=10.2307/40288025">
+
+                    Track Citation
+                </a>
+            </li>
+            <li class="email-citation">
+                <a href="http://www.jstor.org.offcampus.lib.washington.edu/action/emailCitations?userAction=list&amp;from=true&amp;singleCitation=true&amp;doi=10.2307/40288025">
+
+                    Email Citation
+                </a>
+            </li>
+            
+                <li>
+                    
+
+
+
+
+    
+    <a class="ccc-logo" target="_top" href="https://www.copyright.com/openurl.do?sid=pd_ITHAKA&amp;servicename=all&amp;WT.mc_id=tpd_ITHAKA19334192&amp;issn=03122417&amp;date=2008" title="This link opens in a new window">
+
+        Request Permissions
+    </a>
+
+                </li>
+            
+        </ul>
+    </li>
+        
+        <li class="journal_info_button">
+            <a href="#" class="button button-jstor has-dropdown" data-dropdown="journal_info_drop" aria-controls="journal_info_drop" aria-expanded="false">Journal Info</a>
+            
+<div id="journal_info_drop" class="f-dropdown content medium txtL " data-dropdown-content="" aria-hidden="true" tabindex="-1">
+    <a href="#" class="close close-overlay">╳</a> 
+    <div class="journal lookslikeh2 drop-content-title">Australian Archaeology</div>
+
+    <div class="journal_description mtm"><strong>Description:</strong> <cite>Australian Archaeology</cite>, the official publication of the Australian 
+  Archaeological Association Inc., is a refereed journal published since 1974. 
+  It accepts original articles in all fields of archaeology and other subjects 
+  relevant to archaeological research and practice in Australia and nearby areas. 
+  Contributions are accepted in seven sections: Articles (5000-8000 words), Short 
+  Reports (1000-3000), Obituaries (500-2000), Thesis Abstracts (200-500), Book 
+  Reviews (500-2000), Comment (1000) and Backfill (which includes letters, conference 
+  details, announcements and other material of interest to members). <cite>Australian 
+  Archaeology</cite> is published twice a year, in June and December. Notes to 
+  Contributors are available at <a href="http://www.australianarchaeologicalassociation.com.au.offcampus.lib.washington.edu/">www.australianarchaeologicalassociation.com.au</a>.</div>
+    
+
+    <div class="coverage-period mtm"><strong>Coverage:</strong> 1974-2012 (No. 1 - No. 75)</div>
+
+
+    
+
+<div class="moving-wall mtm">
+    <dl class="accordion" data-accordion="">
+        <dd class="accordion-navigation">
+            <strong>Moving Wall:</strong> 2 years <a href="#panel1">(What is the moving wall?)</a>
+            <div id="panel1" class="content mtm prl">
+                <dl>
+                    <dt class="hide">Moving Wall</dt>
+                    <dd class="alert-box secondary">
+                        <p>The "moving wall" represents the time period between the last issue
+                        available in JSTOR and the most recently published issue of a journal.
+                        Moving walls are generally represented in years. In rare instances, a
+                        publisher has elected to have a "zero" moving wall, so their current
+                        issues are available in JSTOR shortly after publication.<br>
+                        Note: In calculating the moving wall, the current year is not counted.<br>
+                        For example, if the current year is 2008 and a journal has a 5 year
+                        moving wall, articles from the year 2002 are available.</p>
+                        <dl>
+                            <dt><strong>Terms Related to the Moving Wall</strong></dt>
+                            <dd><strong>Fixed walls:</strong> Journals with no new volumes being added to the archive.</dd>
+                            <dd><strong>Absorbed:</strong> Journals that are combined with another title.</dd>
+                            <dd><strong>Complete:</strong> Journals that are no longer published or that have been
+                            combined with another title.</dd>
+                        </dl>
+                    </dd>
+                </dl>
+            </div>
+            
+        </dd>
+    </dl>
+</div>
+
+
+
+    <div class="issn mtm"><strong>ISSN:</strong> 03122417</div>
+
+
+        
+    <div class="subjects mtm"><strong>Subjects:</strong> 
+            
+                <a href="http://www.jstor.org.offcampus.lib.washington.edu/action/showJournals?discipline=43693384">Archaeology</a>,
+            
+                <a href="http://www.jstor.org.offcampus.lib.washington.edu/action/showJournals?discipline=6492891951">Social Sciences</a>
+            
+    </div>
+
+</div>               
+        </li>
+    
+</ul>
+
+<noscript>
+
+    <div class="clearfix" aria-hidden="true">
+        <div class="article-tools txtL pal">
+            <ul class="no-bullet mbn">
+                <li><strong>Article Tools</strong></li>
+                <li class="save-citation mvs"><a href="/action/addFavoritePublication?jid=10.2307/40288025&redirectUri=/stable/40288025?saveCitation=true">Save Citation</a></li>
+                <li class="export-citation mvs"><a href="/action/exportSingleCitation?singleCitation=true&doi=10.2307/40288025">Export Citation</a></li>
+                <li class="track-citation mvs"><a href="/action/addCitationAlert?redirectUri=/stable/40288025?trackCitation=true&doi=10.2307/40288025">Track Citation</a></li>
+                <li class="email-citation mvs"><a href="/action/emailCitations?userAction=list&from=true&singleCitation=true&doi=10.2307/40288025">Email Citation</a></li>
+                
+                <li class="mtl mvs">
+                    
+
+
+
+
+    
+    <a class="ccc-logo" target="_blank" href="https://www.copyright.com/openurl.do?sid=pd_ITHAKA&servicename=all&WT.mc_id=tpd_ITHAKA19334192&issn=03122417&date=2008" title="This link opens in a new window">
+        Request Permissions
+    </a>
+
+                </li>
+                <li class="mvs">
+                    <a href="/stable/40288025?item_view=journal_info" target="_blank">Journal Info</a>
+                </li>
+                
+            </ul>
+        </div>
+    </div>
+</noscript>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="large-4 show-for-large-up columns">
+                        
+    <p id="provider-statement" class="smTxt">Your access to JSTOR provided by <a href="http://www.lib.washington.edu.offcampus.lib.washington.edu/"></a></p><p style="line-height: 5px;"></p><a href="http://www.lib.washington.edu.offcampus.lib.washington.edu/"><img style="margin: 0px 1px 0px 0px;" src="washington.edu_.png" title="University of Washington Libraries" alt="University of Washington Libraries" width="170px"></a><p></p>
+
+
+                    </div>
+                </div>
+            </div>
+            <div id="article_view_content" class="article-view-content ptxl">
+                <div class="row collapse" style="max-width: 867px;">
+                    <div class="small-12 large-6 large-push-6 columns">
+                        <div id="issue-pager" class="ptm">
+                            <a href="#" id="view-full-screen" data-reveal-id="page-scan-full-screen">View Full Screen</a>
+                            &nbsp;|&nbsp;
+                            
+                                
+                                    <a class="previous-item" href="http://www.jstor.org.offcampus.lib.washington.edu/stable/40288024">« Previous Item</a>
+                                
+                                &nbsp;|&nbsp;
+                                
+                                    <a class="next-item" href="http://www.jstor.org.offcampus.lib.washington.edu/stable/40288026">Next Item »</a>
+                                
+                            
+                        </div>
+                    </div>
+                    <div class="small-12 large-6 large-pull-6 columns">
+                        <dl class="tabs three-up" data-tab="" data-options="deep_linking:true; scroll_to_content: false">
+                            <dd class="active" id="page_scan_tab">
+                                <a role="tab" href="#page_scan_tab_contents">Article</a>
+                            </dd>
+                            <dd id="page_thumbnails_tab">
+                                <a role="tab" href="#page_thumbnails_tab_contents">Thumbnails</a>
+                            </dd>
+                            
+                            
+                                <dd id="references_tab">
+                                    <a role="tab" href="#references_tab_contents" data-capn-logger="{&quot;event_type&quot;:&quot;view_summary&quot;, &quot;added_dests&quot;:[&quot;COUNTER_LOGGER&quot;], &quot;uuid&quot;:&quot;7842b42c-76f4-4438-9746-7ff72e84d522&quot;, &quot;lit_contractid&quot;:&quot;84014301&quot;, &quot;lit_contentid&quot;:&quot;1805336&quot;, &quot;lit_entitlement_map&quot;:{&quot;3739960&quot;: [], &quot;2&quot;: [], &quot;3049144&quot;: [], &quot;3739256&quot;: [], &quot;67&quot;: [], &quot;41420&quot;: [{&quot;entitlement&quot;: &quot;1805336&quot;, &quot;licenseType&quot;: &quot;Standard&quot;, &quot;displayFormats&quot;: [&quot;PDF High Res&quot;, &quot;PDF with links&quot;, &quot;PDF&quot;, &quot;first page image&quot;, &quot;HTML&quot;, &quot;PDF Medium Res&quot;, &quot;page images&quot;, &quot;PDF Low Res&quot;], &quot;license&quot;: &quot;84014301&quot;}], &quot;62&quot;: [], &quot;3&quot;: []}, &quot;entitlement_map&quot;:{&quot;3739960&quot;: [], &quot;2&quot;: [], &quot;3049144&quot;: [], &quot;3739256&quot;: [], &quot;67&quot;: [], &quot;41420&quot;: [{&quot;entitlement&quot;: &quot;1805336&quot;, &quot;licenseType&quot;: &quot;Standard&quot;, &quot;displayFormats&quot;: [&quot;PDF High Res&quot;, &quot;PDF with links&quot;, &quot;PDF&quot;, &quot;first page image&quot;, &quot;HTML&quot;, &quot;PDF Medium Res&quot;, &quot;page images&quot;, &quot;PDF Low Res&quot;], &quot;license&quot;: &quot;84014301&quot;}], &quot;62&quot;: [], &quot;3&quot;: []}, &quot;lit_metadataid&quot;:&quot;378087880&quot;, &quot;lit_userid&quot;:&quot;41420&quot;, &quot;lit_sessionid&quot;:&quot;21106151760653&quot;, &quot;lit_subsessionid&quot;:&quot;54031300293&quot;, &quot;sessionid&quot;:&quot;0&quot;, &quot;doi&quot;:&quot;10.2307/40288025&quot;, &quot;item_doi&quot;:&quot;10.2307/40288025&quot;, &quot;content_id&quot;:&quot;af288e4b-0cba-3840-a60f-dd68c7613b23&quot;, &quot;item_id&quot;:&quot;af288e4b-0cba-3840-a60f-dd68c7613b23&quot;, &quot;uri&quot;:&quot;/stable/40288025&quot;, &quot;c3_success&quot;:&quot;SUCCESS&quot;, &quot;c3_uri&quot;:&quot;stable/info/40288025&quot;}">References</a>
+                                </dd>
+                            
+                        </dl>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="small-12 columns">
+                        <div class="tabs-content">
+                            <noscript>
+
+                                <div class="notify-error" aria-hidden="true">
+                                    You have javascript disabled.
+                                </div>
+                                <p class="f15">To read this item, please use <a href="/stable/pdf/40288025.pdf">PDF</a></p>
+                            </noscript>
+                            <div class="content active" role="tabpanel" id="page_scan_tab_contents" style="max-width: 867px;">
+                                <div class="page-scan">
+    <div class="row">
+        <div class="small-12 columns">
+            <div class="mbm">
+                <span class="page-scan-current-page">Viewing page 79 of pages 79-86</span>
+            </div>
+        </div>
+        
+    </div>
+    <div class="page-scan-wrapper">
+        
+        <div style="visibility: visible;" class="previous-page">
+    <a class="disabled" href="#">
+        <span class="previous">Previous Page</span>
+        <span class="previous-bottom">Previous Page</span>
+    </a>
+</div>
+        <div class="page-center">
+            <div id="search-term-highlight-container" class="relative scan-image-wrapper" data-search-text="">
+                <img class="page-scan-container notResponsive" src="McMMOPwxxxBJPTLGWEQAAOw==" data-page="1" data-last="8" alt="Page 79 of Three Styles of Darwinian Evolution in the Analysis of Stone Artefacts: Which One to Use in Mainland Southeast Asia? ">
+            </div>
+        </div>
+        <div style="visibility: visible;" class="next-page">
+    <a href="#">
+        <span class="next">Next Page</span>
+        <span class="next-bottom">Next Page</span>
+    </a>
+</div>
+        
+    </div>
+
+    
+            <div id="page1" data-doi="10.2307/40288025" data-page="79" data-pagename="Viewing page 79 of pages 79-86" data-s3="czM6Ly9zZXF1b2lhLWNlZGFyL2NpZC1wcm9kLTEvYWYyODhlNGIvMGNiYS8zODQwL2E2MGYvZGQ2OGM3NjEzYjIzL2k0MDAxMTU2MS80MDI4ODAyNS9ncmFwaGljL3BhZ2VzL2R0Yy44NS50aWYuZ2lm" data-ocr="czM6Ly9zZXF1b2lhLWNlZGFyL2NpZC1wcm9kLTEvYWYyODhlNGIvMGNiYS8zODQwL2E2MGYvZGQ2OGM3NjEzYjIzL2k0MDAxMTU2MS80MDI4ODAyNS9vY3JzLzg1LnhtbF9fLi5KU1RPUl9PQ1JfSlNPTg"></div>
+    
+            <div id="page2" data-doi="10.2307/40288025" data-page="80" data-pagename="Viewing page 80 of pages 79-86" data-s3="czM6Ly9zZXF1b2lhLWNlZGFyL2NpZC1wcm9kLTEvYWYyODhlNGIvMGNiYS8zODQwL2E2MGYvZGQ2OGM3NjEzYjIzL2k0MDAxMTU2MS80MDI4ODAyNS9ncmFwaGljL3BhZ2VzL2R0Yy44Ni50aWYuZ2lm" data-ocr="czM6Ly9zZXF1b2lhLWNlZGFyL2NpZC1wcm9kLTEvYWYyODhlNGIvMGNiYS8zODQwL2E2MGYvZGQ2OGM3NjEzYjIzL2k0MDAxMTU2MS80MDI4ODAyNS9vY3JzLzg2LnhtbF9fLi5KU1RPUl9PQ1JfSlNPTg"></div>
+    
+            <div id="page3" data-doi="10.2307/40288025" data-page="81" data-pagename="Viewing page 81 of pages 79-86" data-s3="czM6Ly9zZXF1b2lhLWNlZGFyL2NpZC1wcm9kLTEvYWYyODhlNGIvMGNiYS8zODQwL2E2MGYvZGQ2OGM3NjEzYjIzL2k0MDAxMTU2MS80MDI4ODAyNS9ncmFwaGljL3BhZ2VzL2R0Yy44Ny50aWYuZ2lm" data-ocr="czM6Ly9zZXF1b2lhLWNlZGFyL2NpZC1wcm9kLTEvYWYyODhlNGIvMGNiYS8zODQwL2E2MGYvZGQ2OGM3NjEzYjIzL2k0MDAxMTU2MS80MDI4ODAyNS9vY3JzLzg3LnhtbF9fLi5KU1RPUl9PQ1JfSlNPTg"></div>
+    
+            <div id="page4" data-doi="10.2307/40288025" data-page="82" data-pagename="Viewing page 82 of pages 79-86" data-s3="czM6Ly9zZXF1b2lhLWNlZGFyL2NpZC1wcm9kLTEvYWYyODhlNGIvMGNiYS8zODQwL2E2MGYvZGQ2OGM3NjEzYjIzL2k0MDAxMTU2MS80MDI4ODAyNS9ncmFwaGljL3BhZ2VzL2R0Yy44OC50aWYuanBn" data-ocr="czM6Ly9zZXF1b2lhLWNlZGFyL2NpZC1wcm9kLTEvYWYyODhlNGIvMGNiYS8zODQwL2E2MGYvZGQ2OGM3NjEzYjIzL2k0MDAxMTU2MS80MDI4ODAyNS9vY3JzLzg4LnhtbF9fLi5KU1RPUl9PQ1JfSlNPTg"></div>
+    
+            <div id="page5" data-doi="10.2307/40288025" data-page="83" data-pagename="Viewing page 83 of pages 79-86" data-s3="czM6Ly9zZXF1b2lhLWNlZGFyL2NpZC1wcm9kLTEvYWYyODhlNGIvMGNiYS8zODQwL2E2MGYvZGQ2OGM3NjEzYjIzL2k0MDAxMTU2MS80MDI4ODAyNS9ncmFwaGljL3BhZ2VzL2R0Yy44OS50aWYuZ2lm" data-ocr="czM6Ly9zZXF1b2lhLWNlZGFyL2NpZC1wcm9kLTEvYWYyODhlNGIvMGNiYS8zODQwL2E2MGYvZGQ2OGM3NjEzYjIzL2k0MDAxMTU2MS80MDI4ODAyNS9vY3JzLzg5LnhtbF9fLi5KU1RPUl9PQ1JfSlNPTg"></div>
+    
+            <div id="page6" data-doi="10.2307/40288025" data-page="84" data-pagename="Viewing page 84 of pages 79-86" data-s3="czM6Ly9zZXF1b2lhLWNlZGFyL2NpZC1wcm9kLTEvYWYyODhlNGIvMGNiYS8zODQwL2E2MGYvZGQ2OGM3NjEzYjIzL2k0MDAxMTU2MS80MDI4ODAyNS9ncmFwaGljL3BhZ2VzL2R0Yy45MC50aWYuZ2lm" data-ocr="czM6Ly9zZXF1b2lhLWNlZGFyL2NpZC1wcm9kLTEvYWYyODhlNGIvMGNiYS8zODQwL2E2MGYvZGQ2OGM3NjEzYjIzL2k0MDAxMTU2MS80MDI4ODAyNS9vY3JzLzkwLnhtbF9fLi5KU1RPUl9PQ1JfSlNPTg"></div>
+    
+            <div id="page7" data-doi="10.2307/40288025" data-page="85" data-pagename="Viewing page 85 of pages 79-86" data-s3="czM6Ly9zZXF1b2lhLWNlZGFyL2NpZC1wcm9kLTEvYWYyODhlNGIvMGNiYS8zODQwL2E2MGYvZGQ2OGM3NjEzYjIzL2k0MDAxMTU2MS80MDI4ODAyNS9ncmFwaGljL3BhZ2VzL2R0Yy45MS50aWYuZ2lm" data-ocr="czM6Ly9zZXF1b2lhLWNlZGFyL2NpZC1wcm9kLTEvYWYyODhlNGIvMGNiYS8zODQwL2E2MGYvZGQ2OGM3NjEzYjIzL2k0MDAxMTU2MS80MDI4ODAyNS9vY3JzLzkxLnhtbF9fLi5KU1RPUl9PQ1JfSlNPTg"></div>
+    
+            <div id="page8" data-doi="10.2307/40288025" data-page="86" data-pagename="Viewing page 86 of pages 79-86" data-s3="czM6Ly9zZXF1b2lhLWNlZGFyL2NpZC1wcm9kLTEvYWYyODhlNGIvMGNiYS8zODQwL2E2MGYvZGQ2OGM3NjEzYjIzL2k0MDAxMTU2MS80MDI4ODAyNS9ncmFwaGljL3BhZ2VzL2R0Yy45Mi50aWYuZ2lm" data-ocr="czM6Ly9zZXF1b2lhLWNlZGFyL2NpZC1wcm9kLTEvYWYyODhlNGIvMGNiYS8zODQwL2E2MGYvZGQ2OGM3NjEzYjIzL2k0MDAxMTU2MS80MDI4ODAyNS9vY3JzLzkyLnhtbF9fLi5KU1RPUl9PQ1JfSlNPTg"></div>
+    
+</div>
+
+<div id="page-scan-full-screen" class="reveal-modal xlarge" data-reveal="reveal">
+    <div class="page-scan text-center">
+        <a class="close-reveal-modal" id="close-full-screen" aria-label="Close">×</a>
+        <div class="row">
+            <div class="small-12 columns">
+                <div class="mbm">
+                    <span class="page-scan-current-page">Viewing page 79 of pages 79-86</span>
+                </div>
+            </div>
+        </div>
+        <div class="page-scan-wrapper">
+            <div style="visibility: visible;" class="previous-page">
+    <a class="disabled" href="#">
+        <span class="previous">Previous Page</span>
+        <span class="previous-bottom">Previous Page</span>
+    </a>
+</div>
+            <div class="page-center">
+                <img class="page-scan-container" src="McMMOPwxxxBJPTLGWEQAAOw==" data-page="1" data-last="8" alt="Page 79 of Three Styles of Darwinian Evolution in the Analysis of Stone Artefacts: Which One to Use in Mainland Southeast Asia? ">
+            </div>
+            <div style="visibility: visible;" class="next-page">
+    <a href="#">
+        <span class="next">Next Page</span>
+        <span class="next-bottom">Next Page</span>
+    </a>
+</div>
+        </div>
+    </div>
+</div>
+                            </div>
+                            <div class="content" role="tabpanel" id="page_thumbnails_tab_contents">
+                                <div id="thumbnails" class="reading-length">
+    <h2>Page Thumbnails</h2>
+   
+    <div id="thumbs" class="mtl ">
+        <ul class="medium-block-grid-4 txtC pbs">
+            
+                <li class="txtM">
+                    <a href="http://www.jstor.org.offcampus.lib.washington.edu/stable/40288025?seq=1">
+                        <img id="thumbnail_image_1" src="yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-echo="czM6Ly9zZXF1b2lhLWNlZGFyL2NpZC1wcm9kLTEvYWYyODhlNGIvMGNiYS8zODQwL2E2MGYvZGQ2OGM3NjEzYjIzL2k0MDAxMTU2MS80MDI4ODAyNS9ncmFwaGljL3NtYWxsL2R0Yy44NS50aWYuanBn" alt="Thumbnail: Page 
+79">
+                        <div>
+
+79</div>
+                    </a>
+                </li>
+            
+                <li class="txtM">
+                    <a href="http://www.jstor.org.offcampus.lib.washington.edu/stable/40288025?seq=2">
+                        <img id="thumbnail_image_2" src="yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-echo="czM6Ly9zZXF1b2lhLWNlZGFyL2NpZC1wcm9kLTEvYWYyODhlNGIvMGNiYS8zODQwL2E2MGYvZGQ2OGM3NjEzYjIzL2k0MDAxMTU2MS80MDI4ODAyNS9ncmFwaGljL3NtYWxsL2R0Yy44Ni50aWYuanBn" alt="Thumbnail: Page 
+80">
+                        <div>
+
+80</div>
+                    </a>
+                </li>
+            
+                <li class="txtM">
+                    <a href="http://www.jstor.org.offcampus.lib.washington.edu/stable/40288025?seq=3">
+                        <img id="thumbnail_image_3" src="yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-echo="czM6Ly9zZXF1b2lhLWNlZGFyL2NpZC1wcm9kLTEvYWYyODhlNGIvMGNiYS8zODQwL2E2MGYvZGQ2OGM3NjEzYjIzL2k0MDAxMTU2MS80MDI4ODAyNS9ncmFwaGljL3NtYWxsL2R0Yy44Ny50aWYuanBn" alt="Thumbnail: Page 
+81">
+                        <div>
+
+81</div>
+                    </a>
+                </li>
+            
+                <li class="txtM">
+                    <a href="http://www.jstor.org.offcampus.lib.washington.edu/stable/40288025?seq=4">
+                        <img id="thumbnail_image_4" src="yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-echo="czM6Ly9zZXF1b2lhLWNlZGFyL2NpZC1wcm9kLTEvYWYyODhlNGIvMGNiYS8zODQwL2E2MGYvZGQ2OGM3NjEzYjIzL2k0MDAxMTU2MS80MDI4ODAyNS9ncmFwaGljL3NtYWxsL2R0Yy44OC50aWYuanBn" alt="Thumbnail: Page 
+82">
+                        <div>
+
+82</div>
+                    </a>
+                </li>
+            
+                <li class="txtM">
+                    <a href="http://www.jstor.org.offcampus.lib.washington.edu/stable/40288025?seq=5">
+                        <img id="thumbnail_image_5" src="yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-echo="czM6Ly9zZXF1b2lhLWNlZGFyL2NpZC1wcm9kLTEvYWYyODhlNGIvMGNiYS8zODQwL2E2MGYvZGQ2OGM3NjEzYjIzL2k0MDAxMTU2MS80MDI4ODAyNS9ncmFwaGljL3NtYWxsL2R0Yy44OS50aWYuanBn" alt="Thumbnail: Page 
+83">
+                        <div>
+
+83</div>
+                    </a>
+                </li>
+            
+                <li class="txtM">
+                    <a href="http://www.jstor.org.offcampus.lib.washington.edu/stable/40288025?seq=6">
+                        <img id="thumbnail_image_6" src="yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-echo="czM6Ly9zZXF1b2lhLWNlZGFyL2NpZC1wcm9kLTEvYWYyODhlNGIvMGNiYS8zODQwL2E2MGYvZGQ2OGM3NjEzYjIzL2k0MDAxMTU2MS80MDI4ODAyNS9ncmFwaGljL3NtYWxsL2R0Yy45MC50aWYuanBn" alt="Thumbnail: Page 
+84">
+                        <div>
+
+84</div>
+                    </a>
+                </li>
+            
+                <li class="txtM">
+                    <a href="http://www.jstor.org.offcampus.lib.washington.edu/stable/40288025?seq=7">
+                        <img id="thumbnail_image_7" src="yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-echo="czM6Ly9zZXF1b2lhLWNlZGFyL2NpZC1wcm9kLTEvYWYyODhlNGIvMGNiYS8zODQwL2E2MGYvZGQ2OGM3NjEzYjIzL2k0MDAxMTU2MS80MDI4ODAyNS9ncmFwaGljL3NtYWxsL2R0Yy45MS50aWYuanBn" alt="Thumbnail: Page 
+85">
+                        <div>
+
+85</div>
+                    </a>
+                </li>
+            
+                <li class="txtM">
+                    <a href="http://www.jstor.org.offcampus.lib.washington.edu/stable/40288025?seq=8">
+                        <img id="thumbnail_image_8" src="yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-echo="czM6Ly9zZXF1b2lhLWNlZGFyL2NpZC1wcm9kLTEvYWYyODhlNGIvMGNiYS8zODQwL2E2MGYvZGQ2OGM3NjEzYjIzL2k0MDAxMTU2MS80MDI4ODAyNS9ncmFwaGljL3NtYWxsL2R0Yy45Mi50aWYuanBn" alt="Thumbnail: Page 
+86">
+                        <div>
+
+86</div>
+                    </a>
+                </li>
+            
+        </ul>
+    </div>
+    
+</div>
+                            </div>
+                            
+                            
+                            <div class="content" role="tabpanel" id="references_tab_contents">
+                                    <div id="references" class="reading-length">
+    
+        <div class="abstract" data-ajax="false">
+            <h2>Abstract</h2>
+            <div>
+            
+                <div class="abstract1">Our understanding of flaked stone artefacts from assemblages in mainland Southeast Asia is constrained by a shortage of robust and flexible theory to generate suitable methods of analysis. I review three candidate theories derived from Darwinian evolutionary principles to identify the most suitable for investigating flaked stone artefacts from mainland Southeast Asia. The demands of the theory are compared with the evidential constraints of the assemblages. Human behavioural ecology is found to be the most suitable because of the reliable methods available to test predictions with artefact assemblages. A small case study is discussed to demonstrate the applicability of this approach.</div>
+            
+            </div>
+        </div>
+    
+    
+    <div class="notes-and-references mtl">
+        <h2>Notes and References</h2>
+        <p>This item contains 69 references.</p>
+        
+        <div class="pll">
+            
+            <div class="reference-block-title bold mtm ">References</div>
+            
+            <ul class="reference-list no-bullet mbn">
+            
+                <li class="mvs ">
+                    <div>
+                        
+                        
+                        <div class="media-body mls plxl reference-contains">
+
+                            
+                                Bamforth, D.B. 1986 Technological efficiency and tool curation. American Antiquity 51:38-50.
+                                
+                                    
+<ul class="reference-links no-bullet">
+
+    <li>
+    
+        <a class="ref-link-crossref" href="http://dx.doi.org.offcampus.lib.washington.edu/10.2307/280392" target="_top"><strong>&gt; Find via CrossRef</strong></a>
+    
+    </li>
+
+</ul>
+                                
+                            
+                        </div>
+                        
+                    </div>
+                </li>
+            
+                <li class="mvs ">
+                    <div>
+                        
+                        
+                        <div class="media-body mls plxl reference-contains">
+
+                            
+                                Bettinger, R.L. and J. Eerkens 1997 Evolutionary implications of metrical variation in Great Basin projectile points. In CM. Barton and G.A.Clark (eds), Rediscovering Darwin: Evolutionary Theory and Archaeological Explanation, pp. 177-191. Arlington, VA: American Anthropological Association.
+                                
+                                    
+<ul class="reference-links no-bullet">
+
+    <li>
+    
+    </li>
+
+</ul>
+                                
+                            
+                        </div>
+                        
+                    </div>
+                </li>
+            
+                <li class="mvs ">
+                    <div>
+                        
+                        
+                        <div class="media-body mls plxl reference-contains">
+
+                            
+                                Bettinger, R.L. and J. Eerkens 1999 Point typologies, cultural transmission, and the spread of bow-and-arrow technology in the prehistoric Great Basin. American Antiquity 64:231-242.
+                                
+                                    
+<ul class="reference-links no-bullet">
+
+    <li>
+    
+        <a class="ref-link-crossref" href="http://dx.doi.org.offcampus.lib.washington.edu/10.2307/2694276" target="_top"><strong>&gt; Find via CrossRef</strong></a>
+    
+    </li>
+
+</ul>
+                                
+                            
+                        </div>
+                        
+                    </div>
+                </li>
+            
+                <li class="mvs ">
+                    <div>
+                        
+                        
+                        <div class="media-body mls plxl reference-contains">
+
+                            
+                                Bird, D. and J. O'Connell 2006 Behavioral ecology and archaeology. Journal of Archaeological Research 1 4: 1 43- 1 88.
+                                
+                                    
+<ul class="reference-links no-bullet">
+
+    <li>
+    
+    </li>
+
+</ul>
+                                
+                            
+                        </div>
+                        
+                    </div>
+                </li>
+            
+                <li class="mvs ">
+                    <div>
+                        
+                        
+                        <div class="media-body mls plxl reference-contains">
+
+                            
+                                Boone, J.L. and E.A. Smith 1998 Is it evolution yet? A critique of evolutionary archaeology. Current Anthropology 39:141-1 57.
+                                
+                            
+                        </div>
+                        
+                    </div>
+                </li>
+            
+                <li class="mvs ">
+                    <div>
+                        
+                        
+                        <div class="media-body mls plxl reference-contains">
+
+                            
+                                Bowdler, S. 1994a The Hoabinhian in Australia: A retrospective review. Vietnam Social Sciences 5(43):87 -94.
+                                
+                                    
+<ul class="reference-links no-bullet">
+
+    <li>
+    
+    </li>
+
+</ul>
+                                
+                            
+                        </div>
+                        
+                    </div>
+                </li>
+            
+                <li class="mvs ">
+                    <div>
+                        
+                        
+                        <div class="media-body mls plxl reference-contains">
+
+                            
+                                Bowdler, S. 1994b Permeating the bamboo curtain: Fred McCarthy's interesting questions. In M. Sullivan, S. Brockwell and A. Webb (eds), Archaeology in the North: Proceedings of the 1993 Australian Archaeological Association Conference, pp.30- 39. Darwin: North Australia Research Unit, Australian National University.
+                                
+                                    
+<ul class="reference-links no-bullet">
+
+    <li>
+    
+    </li>
+
+</ul>
+                                
+                            
+                        </div>
+                        
+                    </div>
+                </li>
+            
+                <li class="mvs ">
+                    <div>
+                        
+                        
+                        <div class="media-body mls plxl reference-contains">
+
+                            
+                                Bowdler, S. 1996 Freud and archaeology. Anthropological Forum 7:419-438.
+                                
+                                    
+<ul class="reference-links no-bullet">
+
+    <li>
+    
+    </li>
+
+</ul>
+                                
+                            
+                        </div>
+                        
+                    </div>
+                </li>
+            
+                <li class="mvs ">
+                    <div>
+                        
+                        
+                        <div class="media-body mls plxl reference-contains">
+
+                            
+                                Bowdler, S. 2006 The Hoabinhian: Early evidence for SE Asian trade networks? In E.A. Bacus, I.C. Glover and V.C. Pigott (eds), Uncovering Southeast Asia's Past: Selected Papers from the 10th International Conference of the European Association of Southeast Asian Archaeologists, pp.355-359. Singapore: National University of Singapore Press.
+                                
+                                    
+<ul class="reference-links no-bullet">
+
+    <li>
+    
+    </li>
+
+</ul>
+                                
+                            
+                        </div>
+                        
+                    </div>
+                </li>
+            
+                <li class="mvs ">
+                    <div>
+                        
+                        
+                        <div class="media-body mls plxl reference-contains">
+
+                            
+                                Bowdler, S. and D. Tan 2003 A comparison of stone industries from Southeast Asia and Australia: Some preliminary results. In A. Karlström and A. Kallén (eds), Fishbones and Glittering Emblems: Southeast Asian Archaeology 2002, pp.37-48. Stockholm: Museum of Far Eastern Antiquities.
+                                
+                                    
+<ul class="reference-links no-bullet">
+
+    <li>
+    
+    </li>
+
+</ul>
+                                
+                            
+                        </div>
+                        
+                    </div>
+                </li>
+            
+                <li class="mvs ">
+                    <div>
+                        
+                        
+                        <div class="media-body mls plxl reference-contains">
+
+                            
+                                Boyd, R. and PJ. Richerson 1985 Culture and the Evolutionary Process. Chicago: University of Chicago Press.
+                                
+                                    
+<ul class="reference-links no-bullet">
+
+    <li>
+    
+    </li>
+
+</ul>
+                                
+                            
+                        </div>
+                        
+                    </div>
+                </li>
+            
+                <li class="mvs ">
+                    <div>
+                        
+                        
+                        <div class="media-body mls plxl reference-contains">
+
+                            
+                                Buchanan, B. and M. Collard 2007 Investigating the peopling of North America through cladistic analyses of Early Paleoindian projectile points. Journal of Anthropological Archaeology 26:366-393.
+                                
+                                    
+<ul class="reference-links no-bullet">
+
+    <li>
+    
+    </li>
+
+</ul>
+                                
+                            
+                        </div>
+                        
+                    </div>
+                </li>
+            
+                <li class="mvs ">
+                    <div>
+                        
+                        
+                        <div class="media-body mls plxl reference-contains">
+
+                            
+                                Chung, C. 2003 On the origin of the typological/population distinction in Ernst Mayr's changing views of species, 1942-1959. Studies in History and Philosophy of Science Part C: Studies in History and Philosophy of Biological and Biomedicai Sciences 34:277-296.
+                                
+                                    
+<ul class="reference-links no-bullet">
+
+    <li>
+    
+    </li>
+
+</ul>
+                                
+                            
+                        </div>
+                        
+                    </div>
+                </li>
+            
+                <li class="mvs ">
+                    <div>
+                        
+                        
+                        <div class="media-body mls plxl reference-contains">
+
+                            
+                                Clarkson, C. 2004 Technological Provisioning and Assemblage Variation in the Eastern Victoria River Region, Northern Australia: A Darwinian Perspective. Unpublished PhD thesis, School of Archaeology and Anthropology, Australian National University, Canberra.
+                                
+                                    
+<ul class="reference-links no-bullet">
+
+    <li>
+    
+    </li>
+
+</ul>
+                                
+                            
+                        </div>
+                        
+                    </div>
+                </li>
+            
+                <li class="mvs ">
+                    <div>
+                        
+                        
+                        <div class="media-body mls plxl reference-contains">
+
+                            
+                                Clarkson, C. 2006 Interpreting surface assemblage variation in Wardaman Country, Northern Territory: An ecological approach. In S. Ulm and I. Lilley (eds), An Archaeological Life: Papers in Honour of Jay Hall, pp. 177- 190. Research Report Series 7. Brisbane: Aboriginal and Torres Strait Islander Studies Unit, University of Queensland.
+                                
+                                    
+<ul class="reference-links no-bullet">
+
+    <li>
+    
+    </li>
+
+</ul>
+                                
+                            
+                        </div>
+                        
+                    </div>
+                </li>
+            
+                <li class="mvs ">
+                    <div>
+                        
+                        
+                        <div class="media-body mls plxl reference-contains">
+
+                            
+                                Clarkson, C. 2007 Lithics in the Land of the Lightening Brothers: The Archaeology of Wardaman Country, Northern Territory. Terra Australis 25. Canberra: ANU E Press.
+                                
+                                    
+<ul class="reference-links no-bullet">
+
+    <li>
+    
+    </li>
+
+</ul>
+                                
+                            
+                        </div>
+                        
+                    </div>
+                </li>
+            
+                <li class="mvs ">
+                    <div>
+                        
+                        
+                        <div class="media-body mls plxl reference-contains">
+
+                            
+                                Colani, M. 1927 L'âge de la pierre dans la province de Hoa Binh. Mémoires du Service Géologique de l'Indochine 13.
+                                
+                                    
+<ul class="reference-links no-bullet">
+
+    <li>
+    
+    </li>
+
+</ul>
+                                
+                            
+                        </div>
+                        
+                    </div>
+                </li>
+            
+                <li class="mvs ">
+                    <div>
+                        
+                        
+                        <div class="media-body mls plxl reference-contains">
+
+                            
+                                Cronk, L. 1991 Human behavioral ecology. Annual Review of Anthropology 20:25-53.
+                                
+                                    
+<ul class="reference-links no-bullet">
+
+    <li>
+    
+        <a class="ref-link-crossref" href="http://dx.doi.org.offcampus.lib.washington.edu/10.1146/annurev.an.20.100191.000325" target="_top"><strong>&gt; Find via CrossRef</strong></a>
+    
+    </li>
+
+</ul>
+                                
+                            
+                        </div>
+                        
+                    </div>
+                </li>
+            
+                <li class="mvs ">
+                    <div>
+                        
+                        
+                        <div class="media-body mls plxl reference-contains">
+
+                            
+                                Dunnell, R.C. 1978 Style and function: A fundamental dichotomy. American Antiquity 43:192-202.
+                                
+                                    
+<ul class="reference-links no-bullet">
+
+    <li>
+    
+        <a class="ref-link-crossref" href="http://dx.doi.org.offcampus.lib.washington.edu/10.2307/279244" target="_top"><strong>&gt; Find via CrossRef</strong></a>
+    
+    </li>
+
+</ul>
+                                
+                            
+                        </div>
+                        
+                    </div>
+                </li>
+            
+                <li class="mvs ">
+                    <div>
+                        
+                        
+                        <div class="media-body mls plxl reference-contains">
+
+                            
+                                Darwin, C. 1859 On the Origin of Species by Means of Natural Selection. London: J. Murray.
+                                
+                                    
+<ul class="reference-links no-bullet">
+
+    <li>
+    
+    </li>
+
+</ul>
+                                
+                            
+                        </div>
+                        
+                    </div>
+                </li>
+            
+                <li class="mvs ">
+                    <div>
+                        
+                        
+                        <div class="media-body mls plxl reference-contains">
+
+                            
+                                Dunnell, R.C. 1980 Evolutionary theory in archaeology. In M.B. Schiffer (ed.), Advances in Method and Theory, pp.35-99. Vol. 3. New York: Academic Press.
+                                
+                                    
+<ul class="reference-links no-bullet">
+
+    <li>
+    
+    </li>
+
+</ul>
+                                
+                            
+                        </div>
+                        
+                    </div>
+                </li>
+            
+                <li class="mvs ">
+                    <div>
+                        
+                        
+                        <div class="media-body mls plxl reference-contains">
+
+                            
+                                Dunnell, R.C. 1989 Aspects of the application of evolutionary theory. In C.C. Lamberg-Karlovsky (ed.), Archaeological Thought in America, pp.34-49. Cambridge: Cambridge University Press.
+                                
+                                    
+<ul class="reference-links no-bullet">
+
+    <li>
+    
+    </li>
+
+</ul>
+                                
+                            
+                        </div>
+                        
+                    </div>
+                </li>
+            
+                <li class="mvs ">
+                    <div>
+                        
+                        
+                        <div class="media-body mls plxl reference-contains">
+
+                            
+                                Gorman C. 1971 Prehistoric Research in North Thailand: A Culture-Chronographic Sequence from the Late Pleistocene to the Early Recent Period. Unpublished PhD thesis, University of Hawaii, Honolulu.
+                                
+                                    
+<ul class="reference-links no-bullet">
+
+    <li>
+    
+    </li>
+
+</ul>
+                                
+                            
+                        </div>
+                        
+                    </div>
+                </li>
+            
+                <li class="mvs ">
+                    <div>
+                        
+                        
+                        <div class="media-body mls plxl reference-contains">
+
+                            
+                                Hiscock, P. 2002 Quantifying the size of artefact assemblages. Journal of Archaeological Science 29:251-258.
+                                
+                                    
+<ul class="reference-links no-bullet">
+
+    <li>
+    
+    </li>
+
+</ul>
+                                
+                            
+                        </div>
+                        
+                    </div>
+                </li>
+            
+                <li class="mvs ">
+                    <div>
+                        
+                        
+                        <div class="media-body mls plxl reference-contains">
+
+                            
+                                Hiscock, P. 2006 Blunt and to the point: Changing technological strategies in Holocene Australia. In I. Lilley (ed.), Archaeology in Oceania: Australia and the Pacific Islands, pp.69-95. Oxford: Blackwell.
+                                
+                                    
+<ul class="reference-links no-bullet">
+
+    <li>
+    
+    </li>
+
+</ul>
+                                
+                            
+                        </div>
+                        
+                    </div>
+                </li>
+            
+                <li class="mvs ">
+                    <div>
+                        
+                        
+                        <div class="media-body mls plxl reference-contains">
+
+                            
+                                Hiscock, P. and V. Attenbrow 2005 Australia's Eastern Regional Sequence Revisited. Technology and Change at Capertee 3. BAR International Series 1397. Oxford: Archaeopress.
+                                
+                                    
+<ul class="reference-links no-bullet">
+
+    <li>
+    
+    </li>
+
+</ul>
+                                
+                            
+                        </div>
+                        
+                    </div>
+                </li>
+            
+                <li class="mvs ">
+                    <div>
+                        
+                        
+                        <div class="media-body mls plxl reference-contains">
+
+                            
+                                Huxley, J.S. 1955 Evolution, cultural and biological. Yearbook of Anthropology 1955:2-25.
+                                
+                                    
+<ul class="reference-links no-bullet">
+
+    <li>
+    
+    </li>
+
+</ul>
+                                
+                            
+                        </div>
+                        
+                    </div>
+                </li>
+            
+                <li class="mvs ">
+                    <div>
+                        
+                        
+                        <div class="media-body mls plxl reference-contains">
+
+                            
+                                Jeffares, B. 2005 Regaining archaeology's nerve: Culture and biology in archaeological theory. Biology and Philosophy 20:545-556.
+                                
+                                    
+<ul class="reference-links no-bullet">
+
+    <li>
+    
+    </li>
+
+</ul>
+                                
+                            
+                        </div>
+                        
+                    </div>
+                </li>
+            
+                <li class="mvs ">
+                    <div>
+                        
+                        
+                        <div class="media-body mls plxl reference-contains">
+
+                            
+                                Jochim, M. 1983 Optimization models in context. In J.A. Moore and A.S. Keene (eds), Archaeological Hammers and Theories, pp. 157- 170. London: Academic Press.
+                                
+                                    
+<ul class="reference-links no-bullet">
+
+    <li>
+    
+    </li>
+
+</ul>
+                                
+                            
+                        </div>
+                        
+                    </div>
+                </li>
+            
+                <li class="mvs ">
+                    <div>
+                        
+                        
+                        <div class="media-body mls plxl reference-contains">
+
+                            
+                                Kidder, A.V. 1932 The Artifacts ofPecos. New Haven, NY: Phillips Academy, Yale University Press.
+                                
+                                    
+<ul class="reference-links no-bullet">
+
+    <li>
+    
+    </li>
+
+</ul>
+                                
+                            
+                        </div>
+                        
+                    </div>
+                </li>
+            
+                <li class="mvs ">
+                    <div>
+                        
+                        
+                        <div class="media-body mls plxl reference-contains">
+
+                            
+                                Kroeber, A.L. 1960 Evolution, history, and culture. In S. Tax (ed.), Evolution after Darwin: The Evolution of Man, pp. 1-16. Vol. 2. Chicago: University of Chicago Press.
+                                
+                                    
+<ul class="reference-links no-bullet">
+
+    <li>
+    
+    </li>
+
+</ul>
+                                
+                            
+                        </div>
+                        
+                    </div>
+                </li>
+            
+                <li class="mvs ">
+                    <div>
+                        
+                        
+                        <div class="media-body mls plxl reference-contains">
+
+                            
+                                Kuhn, S.L. 1994 A formal approach to the design and assembly of mobile toolkits. American Antiquity 59:426-442.
+                                
+                                    
+<ul class="reference-links no-bullet">
+
+    <li>
+    
+        <a class="ref-link-crossref" href="http://dx.doi.org.offcampus.lib.washington.edu/10.2307/282456" target="_top"><strong>&gt; Find via CrossRef</strong></a>
+    
+    </li>
+
+</ul>
+                                
+                            
+                        </div>
+                        
+                    </div>
+                </li>
+            
+                <li class="mvs ">
+                    <div>
+                        
+                        
+                        <div class="media-body mls plxl reference-contains">
+
+                            
+                                Kuhn, S.L. 1995 Mousterian Lithic Technology. Princeton: Princeton University Press.
+                                
+                                    
+<ul class="reference-links no-bullet">
+
+    <li>
+    
+    </li>
+
+</ul>
+                                
+                            
+                        </div>
+                        
+                    </div>
+                </li>
+            
+                <li class="mvs ">
+                    <div>
+                        
+                        
+                        <div class="media-body mls plxl reference-contains">
+
+                            
+                                Kuhn, S.L. 2004 Upper Paleolithic raw material economies at Ucaglzll cave, Turkey. Journal of Anthropological Archaeology 23:431-448.
+                                
+                                    
+<ul class="reference-links no-bullet">
+
+    <li>
+    
+    </li>
+
+</ul>
+                                
+                            
+                        </div>
+                        
+                    </div>
+                </li>
+            
+                <li class="mvs ">
+                    <div>
+                        
+                        
+                        <div class="media-body mls plxl reference-contains">
+
+                            
+                                Lyman, R.L. and MJ. O'Brien 1998 The goals of evolutionary archaeology: History and explanation. Current Anthropology 39:615.
+                                
+                            
+                        </div>
+                        
+                    </div>
+                </li>
+            
+                <li class="mvs ">
+                    <div>
+                        
+                        
+                        <div class="media-body mls plxl reference-contains">
+
+                            
+                                Marwick, B. 2008a What attributes are important for the measurement of assemblage reduction intensity? Results from an experimental stone artefact assemblage with relevance to the Hoabinhian of mainland Southeast Asia. Journal of Archaeological Science 35: 1 189-1200.
+                                
+                                    
+<ul class="reference-links no-bullet">
+
+    <li>
+    
+    </li>
+
+</ul>
+                                
+                            
+                        </div>
+                        
+                    </div>
+                </li>
+            
+                <li class="mvs ">
+                    <div>
+                        
+                        
+                        <div class="media-body mls plxl reference-contains">
+
+                            
+                                Marwick, B. 2008b Stone Artefacts and Human Ecology at Two Rockshelters in Northwest Thailand. Unpublished PhD thesis, School of Archaeology and Anthropology, Australian National University, Canberra.
+                                
+                                    
+<ul class="reference-links no-bullet">
+
+    <li>
+    
+    </li>
+
+</ul>
+                                
+                            
+                        </div>
+                        
+                    </div>
+                </li>
+            
+                <li class="mvs ">
+                    <div>
+                        
+                        
+                        <div class="media-body mls plxl reference-contains">
+
+                            
+                                Masson, J. M. 1985 The Complete Letters of Sigmund Freud to Wilhelm Fliess, 1887- 1904. Boston: Belknap Press of Harvard University Press.
+                                
+                                    
+<ul class="reference-links no-bullet">
+
+    <li>
+    
+    </li>
+
+</ul>
+                                
+                            
+                        </div>
+                        
+                    </div>
+                </li>
+            
+                <li class="mvs ">
+                    <div>
+                        
+                        
+                        <div class="media-body mls plxl reference-contains">
+
+                            
+                                Maynard Keynes, J. 1964 The General Theory of Employment, Interest and Money. New York: Harcourt Brace and World.
+                                
+                                    
+<ul class="reference-links no-bullet">
+
+    <li>
+    
+    </li>
+
+</ul>
+                                
+                            
+                        </div>
+                        
+                    </div>
+                </li>
+            
+                <li class="mvs ">
+                    <div>
+                        
+                        
+                        <div class="media-body mls plxl reference-contains">
+
+                            
+                                Mayr, E. 1959 Darwin and the evolutionary theory in biology. In J. Meggars (ed.), Evolution and Anthropology: A Centennial Appraisal, pp. 1-10. Washington, DC: Anthropological Society of Washington.
+                                
+                                    
+<ul class="reference-links no-bullet">
+
+    <li>
+    
+    </li>
+
+</ul>
+                                
+                            
+                        </div>
+                        
+                    </div>
+                </li>
+            
+                <li class="mvs ">
+                    <div>
+                        
+                        
+                        <div class="media-body mls plxl reference-contains">
+
+                            
+                                Mayr, E. 1970 Populations, Species and Evolution. Boston: Harvard University Press.
+                                
+                                    
+<ul class="reference-links no-bullet">
+
+    <li>
+    
+    </li>
+
+</ul>
+                                
+                            
+                        </div>
+                        
+                    </div>
+                </li>
+            
+                <li class="mvs ">
+                    <div>
+                        
+                        
+                        <div class="media-body mls plxl reference-contains">
+
+                            
+                                Mesoudi, A., A. Whiten and K.N. Laland 2004 Is human cultural evolution Darwinian? Evidence reviewed from the perspective of The Origin of Species. Evoluì ion 58:1-11.
+                                
+                                    
+<ul class="reference-links no-bullet">
+
+    <li>
+    
+    </li>
+
+</ul>
+                                
+                            
+                        </div>
+                        
+                    </div>
+                </li>
+            
+                <li class="mvs ">
+                    <div>
+                        
+                        
+                        <div class="media-body mls plxl reference-contains">
+
+                            
+                                Mesoudi, A., A. Whiten and K.N. Laland 2006 Towards a unified science of cultural evolution. Behavioral and Brain Sciences 29:329-347.
+                                
+                                    
+<ul class="reference-links no-bullet">
+
+    <li>
+    
+    </li>
+
+</ul>
+                                
+                            
+                        </div>
+                        
+                    </div>
+                </li>
+            
+                <li class="mvs ">
+                    <div>
+                        
+                        
+                        <div class="media-body mls plxl reference-contains">
+
+                            
+                                Moser, J. 2001 Hoabinhian: Geographie und Chronologie eines Steinzeitlichen Technocomplexes in Südostasien. Köln: Lindensoft.
+                                
+                                    
+<ul class="reference-links no-bullet">
+
+    <li>
+    
+    </li>
+
+</ul>
+                                
+                            
+                        </div>
+                        
+                    </div>
+                </li>
+            
+                <li class="mvs ">
+                    <div>
+                        
+                        
+                        <div class="media-body mls plxl reference-contains">
+
+                            
+                                O'Brien, M.J.J. Darwent and R.L Lyman 2001 Cladistics is useful for reconstructing archaeological phylogenies: Palaeoindian points from the Southeastern United States. Journal of Archaeological Science 28:1115-1136.
+                                
+                                    
+<ul class="reference-links no-bullet">
+
+    <li>
+    
+    </li>
+
+</ul>
+                                
+                            
+                        </div>
+                        
+                    </div>
+                </li>
+            
+                <li class="mvs ">
+                    <div>
+                        
+                        
+                        <div class="media-body mls plxl reference-contains">
+
+                            
+                                O'Brien, MJ. and R.L. Lyman 2000 Applying Evolutionary Archaeology: A Systematic Approach. New York: Kluwer Academic/Plenum.
+                                
+                                    
+<ul class="reference-links no-bullet">
+
+    <li>
+    
+    </li>
+
+</ul>
+                                
+                            
+                        </div>
+                        
+                    </div>
+                </li>
+            
+                <li class="mvs ">
+                    <div>
+                        
+                        
+                        <div class="media-body mls plxl reference-contains">
+
+                            
+                                O'Brien, M.J. and R.L. Lyman 2002 Evolutionary archeology: Current status and future prospects. Evolutionary Anthropology 1 1:26-36.
+                                
+                                    
+<ul class="reference-links no-bullet">
+
+    <li>
+    
+    </li>
+
+</ul>
+                                
+                            
+                        </div>
+                        
+                    </div>
+                </li>
+            
+                <li class="mvs ">
+                    <div>
+                        
+                        
+                        <div class="media-body mls plxl reference-contains">
+
+                            
+                                Popper, K.R. 1979 Objective Knowledge: An Evolutionary Approach. Oxford: Claredon Press.
+                                
+                                    
+<ul class="reference-links no-bullet">
+
+    <li>
+    
+    </li>
+
+</ul>
+                                
+                            
+                        </div>
+                        
+                    </div>
+                </li>
+            
+                <li class="mvs ">
+                    <div>
+                        
+                        
+                        <div class="media-body mls plxl reference-contains">
+
+                            
+                                Preucel R.W. 1999 Review of Evolutionary archaeology: Theory and application edited by M.J. O'Brien. Journal of Field Archaeology 26:93-99.
+                                
+                            
+                        </div>
+                        
+                    </div>
+                </li>
+            
+                <li class="mvs ">
+                    <div>
+                        
+                        
+                        <div class="media-body mls plxl reference-contains">
+
+                            
+                                Richerson, P.J. and R. Boyd 1992 Cultural inheritance and evolutionary ecology. In E. Smith and B. Winterhaider (eds), Evolutionary Ecology and Human Behavior, pp.62-92. Hawthorne, NY: Aldine de Gruyter.
+                                
+                                    
+<ul class="reference-links no-bullet">
+
+    <li>
+    
+    </li>
+
+</ul>
+                                
+                            
+                        </div>
+                        
+                    </div>
+                </li>
+            
+                <li class="mvs ">
+                    <div>
+                        
+                        
+                        <div class="media-body mls plxl reference-contains">
+
+                            
+                                Ritvo, L.B. 1990 Darwin's Influence on Freud: A Tale of Two Sciences. New Haven: Yale University Press.
+                                
+                                    
+<ul class="reference-links no-bullet">
+
+    <li>
+    
+    </li>
+
+</ul>
+                                
+                            
+                        </div>
+                        
+                    </div>
+                </li>
+            
+                <li class="mvs ">
+                    <div>
+                        
+                        
+                        <div class="media-body mls plxl reference-contains">
+
+                            
+                                Shea, J.J. 1991 Review of Time, Energy and Stone Tools edited by R. Torrence. American Anthropologist 93:250.
+                                
+                            
+                        </div>
+                        
+                    </div>
+                </li>
+            
+                <li class="mvs ">
+                    <div>
+                        
+                        
+                        <div class="media-body mls plxl reference-contains">
+
+                            
+                                Shennan, S. 2002a Archaeology and evolutionary ecology. World Archaeology 34:1-5.
+                                
+                                    
+<ul class="reference-links no-bullet">
+
+    <li>
+    
+    </li>
+
+</ul>
+                                
+                            
+                        </div>
+                        
+                    </div>
+                </li>
+            
+                <li class="mvs ">
+                    <div>
+                        
+                        
+                        <div class="media-body mls plxl reference-contains">
+
+                            
+                                Shennan, S. 2002b Genes, Mêmes and Human History. London: Thames and Hudson.
+                                
+                                    
+<ul class="reference-links no-bullet">
+
+    <li>
+    
+    </li>
+
+</ul>
+                                
+                            
+                        </div>
+                        
+                    </div>
+                </li>
+            
+                <li class="mvs ">
+                    <div>
+                        
+                        
+                        <div class="media-body mls plxl reference-contains">
+
+                            
+                                Shoocongdej, R. 2006 Late Pleistocene activities at the Tham Lod Rocksheiter in Highland Pang Mapha, Mae Hong Son Province, Northwestern Thailand. In E.A. Bacus, I.C. Glover and V. Pigott (eds), Uncovering Southeast Asia's Past: Selected Papers from the 10th International Conference of the European Association of Southeast Asian Archaeologists, pp.22-37. Singapore: National University of Singapore Press.
+                                
+                                    
+<ul class="reference-links no-bullet">
+
+    <li>
+    
+    </li>
+
+</ul>
+                                
+                            
+                        </div>
+                        
+                    </div>
+                </li>
+            
+                <li class="mvs ">
+                    <div>
+                        
+                        
+                        <div class="media-body mls plxl reference-contains">
+
+                            
+                                Shott, M.J. 1997 Transmission theory in the study of stone tools: A midwestern north American example. In M. Barton and G. Clark (eds), Rediscovering Darwin: Evolutionary Theory and Archaeological Explanation, pp. 193-204. Washington, DC: American Anthropological Association.
+                                
+                                    
+<ul class="reference-links no-bullet">
+
+    <li>
+    
+    </li>
+
+</ul>
+                                
+                            
+                        </div>
+                        
+                    </div>
+                </li>
+            
+                <li class="mvs ">
+                    <div>
+                        
+                        
+                        <div class="media-body mls plxl reference-contains">
+
+                            
+                                Smith, E.A. 2000 Three styles in the evolutionary analysis of human behavior. In L. Cronk, N. Chagnon and W. Irons (eds), Adaptation and Human Behavior: An Anthropological Perspective, pp.27-46. New York: Aldine de Gruyter.
+                                
+                                    
+<ul class="reference-links no-bullet">
+
+    <li>
+    
+    </li>
+
+</ul>
+                                
+                            
+                        </div>
+                        
+                    </div>
+                </li>
+            
+                <li class="mvs ">
+                    <div>
+                        
+                        
+                        <div class="media-body mls plxl reference-contains">
+
+                            
+                                Sterelny, K. 2004 Review of Genes, Mêmes and Human History by S. Shennan. Mind &amp; Language 19:249-257.
+                                
+                                    
+<ul class="reference-links no-bullet">
+
+    <li>
+    
+    </li>
+
+</ul>
+                                
+                            
+                        </div>
+                        
+                    </div>
+                </li>
+            
+                <li class="mvs ">
+                    <div>
+                        
+                        
+                        <div class="media-body mls plxl reference-contains">
+
+                            
+                                Sulloway, F.J. 1979 Freud, Biologist of the Mind: Beyond the Psychoanalytic Legend. New York:Basic Books.
+                                
+                                    
+<ul class="reference-links no-bullet">
+
+    <li>
+    
+    </li>
+
+</ul>
+                                
+                            
+                        </div>
+                        
+                    </div>
+                </li>
+            
+                <li class="mvs ">
+                    <div>
+                        
+                        
+                        <div class="media-body mls plxl reference-contains">
+
+                            
+                                Sulloway, F.J. 1991 Reassessing Freud's case histories: The social construction of psychoanalysis. Isis 82:245-275.
+                                
+                                    
+<ul class="reference-links no-bullet">
+
+    <li>
+    
+    </li>
+
+</ul>
+                                
+                            
+                        </div>
+                        
+                    </div>
+                </li>
+            
+                <li class="mvs ">
+                    <div>
+                        
+                        
+                        <div class="media-body mls plxl reference-contains">
+
+                            
+                                Treerayapiwat, C. 2005 Patterns of habitation and burial activity in the Ban Rai Rock Shelter, Northwestern Thailand. Asian Perspectives 44:231-245.
+                                
+                                    
+<ul class="reference-links no-bullet">
+
+    <li>
+    
+    </li>
+
+</ul>
+                                
+                            
+                        </div>
+                        
+                    </div>
+                </li>
+            
+                <li class="mvs ">
+                    <div>
+                        
+                        
+                        <div class="media-body mls plxl reference-contains">
+
+                            
+                                van Heekeren, H.R. and E. Knuth 1967 Archaeological Excavations in Thailand: Sai Yok: Stone-Age Settlements in the Kanchanaburi Province.Voi. 1. Copenhagen: Munksgaard.
+                                
+                                    
+<ul class="reference-links no-bullet">
+
+    <li>
+    
+    </li>
+
+</ul>
+                                
+                            
+                        </div>
+                        
+                    </div>
+                </li>
+            
+                <li class="mvs ">
+                    <div>
+                        
+                        
+                        <div class="media-body mls plxl reference-contains">
+
+                            
+                                White, J.C. 2007 Middle Mekong Archaeological Project, Phase 2a: Test Excavation and Training in Luang Prabang Province during 2007. Unpublished report to Lao Department of Museums and Archaeology.
+                                
+                                    
+<ul class="reference-links no-bullet">
+
+    <li>
+    
+    </li>
+
+</ul>
+                                
+                            
+                        </div>
+                        
+                    </div>
+                </li>
+            
+                <li class="mvs ">
+                    <div>
+                        
+                        
+                        <div class="media-body mls plxl reference-contains">
+
+                            
+                                White, J.C. and B. Bouasisengpaseuth 2007 Archaeology of the Middle Mekong: Introduction to the Luang Prabang Exploratory Survey. In Y. Goudineay and M. Lorrillard (eds), Research Nouvelles sur le Laos, pp. 1-16. Paris: l'École Française d'Extrême Orient.
+                                
+                                    
+<ul class="reference-links no-bullet">
+
+    <li>
+    
+    </li>
+
+</ul>
+                                
+                            
+                        </div>
+                        
+                    </div>
+                </li>
+            
+                <li class="mvs ">
+                    <div>
+                        
+                        
+                        <div class="media-body mls plxl reference-contains">
+
+                            
+                                White, J.C. and CF. Gorman 2004 Patterns in "amorphous" industries: The Hoabinhian viewed through a lithic reduction sequence. In V. Paz (ed.), Southeast Asian Archaeology: Wilhelm G. Solheim II Festschrift, pp.41 1-441. Quezon City: University of the Phillipines Press.
+                                
+                                    
+<ul class="reference-links no-bullet">
+
+    <li>
+    
+    </li>
+
+</ul>
+                                
+                            
+                        </div>
+                        
+                    </div>
+                </li>
+            
+                <li class="mvs ">
+                    <div>
+                        
+                        
+                        <div class="media-body mls plxl reference-contains">
+
+                            
+                                Winterhaider, B. and E.A. Smith 2000 Analyzing adaptive strategies: Human behavioral ecology at twenty-five. Evolutionary Anthropology 9:51-72.
+                                
+                                    
+<ul class="reference-links no-bullet">
+
+    <li>
+    
+    </li>
+
+</ul>
+                                
+                            
+                        </div>
+                        
+                    </div>
+                </li>
+            
+                <li class="mvs ">
+                    <div>
+                        
+                        
+                        <div class="media-body mls plxl reference-contains">
+
+                            
+                                Wylie, A. 1995 An expanded behavioral archaeology: Transformation and redefinition. In J.M. Skibo, W.H. Walker and A.E. Nielsen (eds), Expanding Archaeology, pp. 198-209. Salt Lake City: University of Utah Press.
+                                
+                                    
+<ul class="reference-links no-bullet">
+
+    <li>
+    
+    </li>
+
+</ul>
+                                
+                            
+                        </div>
+                        
+                    </div>
+                </li>
+            
+                <li class="mvs ">
+                    <div>
+                        
+                        
+                        <div class="media-body mls plxl reference-contains">
+
+                            
+                                Yesner, D.R. 1981 Archaeological applications of optimal foraging theory: Harvest strategies of Aluet hunter-gatherers. In B. Winterhaider and E.A. Smith (eds), Hunter-Gatherer Foraging Strategies, pp. 148- 170. Chicago: University of Chicago Press.
+                                
+                                    
+<ul class="reference-links no-bullet">
+
+    <li>
+    
+    </li>
+
+</ul>
+                                
+                            
+                        </div>
+                        
+                    </div>
+                </li>
+            
+                <li class="mvs ">
+                    <div>
+                        
+                        
+                        <div class="media-body mls plxl reference-contains">
+
+                            
+                                Young, R.M. 1990 Mind, Brain and Adaptation in the Nineteenth Century: Cerebral Localization and its Biological Context from Gall to Ferrier. New York: Oxford University Press.
+                                
+                                    
+<ul class="reference-links no-bullet">
+
+    <li>
+    
+    </li>
+
+</ul>
+                                
+                            
+                        </div>
+                        
+                    </div>
+                </li>
+            
+            </ul>
+        </div>
+        
+    </div>
+    
+</div>
+                                </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                
+<div class="mbxl ">
+
+    <div class="copyright-statement">
+    <cite>Australian Archaeology</cite> © 2008 <a href="http://www.jstor.org.offcampus.lib.washington.edu/action/showPublisher?publisherCode=aaa" class="publisher-link">Australian Archaeological Association</a>
+</div>
+
+</div>
+            </div>
+        </div>
+    
+
+        </div>
+        
+        <footer class="row">
+    <div class="large-12 columns prn">
+        <ul class="inline-list menu menu-footer">
+            <li><a href="http://www.jstor.org.offcampus.lib.washington.edu/">JSTOR Home</a></li>
+            <li><a href="http://about.jstor.org.offcampus.lib.washington.edu/" target="_top" title="This link opens in a new window">About</a></li>
+            <li><a href="http://www.jstor.org.offcampus.lib.washington.edu/action/showAdvancedSearch">Search</a></li>
+            <li><a href="http://www.jstor.org.offcampus.lib.washington.edu/action/showJournals">Browse</a></li>
+            <li><a href="http://www.jstor.org.offcampus.lib.washington.edu/page/info/about/policies/terms.jsp" target="_top" title="This link opens in a new window">Terms and Conditions</a></li>
+            <li><a href="http://www.jstor.org.offcampus.lib.washington.edu/page/info/about/policies/privacy.jsp" target="_top" title="This link opens in a new window">Privacy Policy</a></li>
+            <li><a href="http://about.jstor.org.offcampus.lib.washington.edu/content/jstors-use-cookies" target="_top" title="This link opens in a new window">Cookies</a></li>
+            <li><a href="http://www.jstor.org.offcampus.lib.washington.edu/page/info/about/policies/accessibility.jsp" target="_top" title="This link opens in a new window">Accessibility</a></li>
+            <li><a href="http://about.jstor.org.offcampus.lib.washington.edu/support-training/help" target="_top" title="This link opens in a new window">Help</a></li>
+            <li><a href="http://www.jstor.org.offcampus.lib.washington.edu/action/showContactUSMain">Contact us</a></li>
+        </ul>
+        <p>JSTOR is part of ITHAKA, a not-for-profit organization helping the academic community use digital technologies to preserve the scholarly record and to advance research and teaching in sustainable ways.<br>
+        ©2000-2015 ITHAKA. All Rights Reserved. JSTOR®, the JSTOR logo, JPASS®, and ITHAKA® are registered trademarks of ITHAKA.</p>
+    </div>
+</footer>
+
+        
+        <div id="SCData" data-pagename="articleview" data-myjstorstatus="Logged Out" data-journal="Australian Archaeology" data-title="Three Styles of Darwinian Evolution in the Analysis of Stone Artefacts: Which One to Use in Mainland Southeast Asia?" data-publisher="Australian Archaeological Association" data-issue="No. 67" data-contenttype="journal" data-authenticationstatus="Institutional" data-authorizationstatus="Standard" data-institution="<a href=&quot;http://www.lib.washington.edu&quot;><p style=&quot;line-height: 5px; &quot;></p><img style=&quot;margin:0 1px 0 0;&quot; src=&quot;http://about.jstor.org/sites/default/files/misc/washington.edu_.png&quot; width=&quot;170px&quot; title=&quot;University of Washington Libraries&quot; alt=&quot;University of Washington Libraries&quot;></a>" data-event="Content View" data-events="ContentView" data-server="www.jstor.org" class="hide"></div>
+        
+        
+        
+        
+            
+    <script type="text/javascript" src="article-view.js"></script>
+
+        
+        
+        
+    <script>
+
+    // COUNTER 4 tagging code
+    window.starData = {
+        'contentType': 'journal',
+        'journal': 'Australian Archaeology',
+        'article': 'Three Styles of Darwinian Evolution in the Analysis of Stone Artefacts: Which One to Use in Mainland Southeast Asia?',
+        'institution_consortium_map': ['washington.edu'],
+        'yop': '2008',
+        'doi': '10.2307/40288025',
+        'SEARCH_FED': 'True'
+    };
+</script>
+    
+            
+            <script>
+
+                var _$tarQ = _$tarQ || [];
+                    
+                (function (){ 
+                        var stars = document.createElement('script'),
+                            s = document.getElementsByTagName('script')[0];
+                        
+                        stars.async= true; 
+                        stars.type = 'text/javascript'; 
+                        stars.src =  "http://receiver.star.ith.semcs.net/star-aws.js" ; 
+                        
+                        s.parentNode.insertBefore(stars, s); 
+                    }
+                )();
+            </script>
+            
+        
+
+        <div class="hide" data-debug="False"></div>
+    
+
+<script src="nr-593.min.js"></script></body>
+</html>

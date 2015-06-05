@@ -1,0 +1,20 @@
+
+/* ::::: null ::::: */
+
+body { width: 273px; margin: 0px; padding-right: 0px; font-family: Arial; font-size: 12px; }
+#mainArea { text-align: center; width: 273px; }
+#titleBar { height: 17px; min-width: 240px; padding: 8px; }
+#titlebar a { float: right; text-decoration: none; color: rgb(92, 92, 92); }
+h2 { color: rgb(92, 92, 92); float: left; font-size: 13px; font-weight: bold; font-family: Arial,Verdana,sans-serif; margin: 0px; }
+#newWindow { margin: 0px; }
+img { border: 0px none; }
+a, a:visited { font-size: 0.9em; color: rgb(49, 108, 157); text-decoration: none; }
+#infoButton { text-align: left; float: left; }
+#infoContainer { text-align: left; margin: 5px 0px 5px 5px; }
+#InformationModel { color: rgb(46, 46, 46); font-size: 12px; font-style: italic; text-align: left; margin-left: 20px; visibility: hidden; line-height: 16px; margin-top: -5px; }
+#helpLink { float: right; margin-right: 8px; }
+#detatchIcon { text-align: left; padding-left: 175px; }
+
+/* ::::: null ::::: */
+
+.mboxDefault { visibility: hidden; }
