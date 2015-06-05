@@ -8,7 +8,6 @@ affiliation: |
 class: man
 lang: american
 figsintext: no
-lineno: yes
 bibliography:
   - reference.bib
 
@@ -40,6 +39,10 @@ Main reason of the debates is that the related Korean archaeological records do 
 
 (3)	Combination model: This model can be called as migration-trade interaction model or modified version of migration model. This model was originated from errors of other models. Lee argues that new technologies were introduced in Korean peninsula but they didn't change traditional assemblages. In other words, the blade toolkits were introduced, but did not immediately replaced pre/coexisting traditional assemblage. The traditional lithic industry, or full-fledged simple core and flake tool assemblages (SCFA) seems to reoccur around 100 ka and flourish until 30ka. During the blade period, the SCFA exhibits the general characteristics without a wide range of variation within assemblage. Like Bae’s assertion[@Bae_2010], Lee thinks that evolutionary thoery (in situ) does not make sense due to absence of any predetermined lithic strategies that require extensive preparation, such as Levallois technique. But he also questions Bae’s migration theory. Because there is rugged mountain as natural barrier in Northern part of Korean Penninsula so it is hard to move in from north. In addition, the blade technology in Korea is not related with Homo spience which Bae thinks as foraging groups from southern China because the age of the oldest one in Eurasia is younger than 40 ka. It means that Homo spience, modern human might arrive in Korea much later (the analysis of hominine remains is practically impossible in Korea), but blade-technology based lithics was started before the period that the modern human arrived. However, he recognizes the possibility of migration in some point and trade interaction because of existence of obsidian and Arca shells which indicate long distance mobility [@Lee_2013].
 
+##Links between evidence and behavior
+About the advent of new technology, in other words, blade technology, the three models explain the same phenomenon in different ways. Evolutionary theory, migration, and trade are main frame of explanations of each model. These evolution, migration, and trade are broad range of human behavior and they contain small range of behaviors such as adaptation for surrounding environment, mobility, or subsistence pattern. Especially on this specific research period, the starting point of Upper Paleolithic (MIS 3-2 transition), the term of “modern human behavior” is frequently used to depict similar pattern of subsistence, frequent mobility, and use law material. 
+
+Interesting point is that the three models explain introduction of incomplete blade toolkits and coexistence with traditional assemblages as the result of modern human’s ability of adaptation (evolution) [@Seong_2009] or long-distance mobility [@Bae_2010], or the result of combination with mobility and trade (not by modern human) [@Lee_2013]. Without the common evidence of blade toolkit, Seong presents different aspect of sites and layer as evidence of mobility, effort for adaptation, and in situ development [@Seong_2009]. Bae expects the migration from southern China and Siberia with generic evidence of modern human on the basis of the fact that one of main characteristic of modern human is highly mobile forager [@Bae_2010]. Lee argues that the introduction of new technology by modern human’s migration or evolution is hard to believe due to the discordance between dates of archaeological record and ones of Homo sapience. Therefore he thinks that the new technology was the results of combination of trade, some part of migration, and in situ-development based on adaptation for endemic environment of Korean peninsula [@Lee_2013]. Both Seong and Lee recognize the existence of social network or mobility in Korean peninsula because of necessity of acquisition for fine-grain raw material and actual evidences such as obsidian from Mt. Baekdu, Kyushu, and Hokkaido sources [@Lee_2013].             
 
 
 
@@ -153,3 +156,4 @@ So far, blade/microblade technology has been regarded as symbol of modern human.
 
 (2) the Korean Late Paleolithic can be divided into two cultural stages: 1) an initial blade technology that appears sometime between 40 and 36ka; 2)around 25ka mcroblade begin to appear 
 
+Causality&mechanism: Causality is more small scale-particular. Mechanism: more broad, general,
