@@ -23,11 +23,11 @@ apa_prepare_doc() # Prepare document for rendering
 
 The purpose of this paper is to reinterpret and evaluate existing archaeological debates based on the approach of scientific explanation. The target subject of this paper is about three different models explaining the starting point and origin of Upper Paleolithic period of Korea. This subject is directly related to my own dissertation, the study of stemmed points in Korean Peninsula. In the beginning of the thesis, I should have to mention about the topic and take a position. I believe that scientific approach enables neutral and reasonable evaluation. For this reason, I choose the debates for this paper. 
 
-The debates of starting point and origin of Upper Paleolithic period (MIS 3-2 transition) are most problematic and popular issue in the study of Paleolithic in Korea. Some people insist that emergence of blade (32,000 BP) is the starting point while others think stemmed point (35,000 BP) indicate the start. And the origin of Upper Paleolithic had been regarded as coming from Shuidonggou site located in northeast China. However, nowadays this concept starts to be rethinking. Since the dates of the similar sites in Korea were turned out be earlier than Shuidonggou [@Seong_2009]. Therefore people have tried to find the new origin and they present the three different models. First model is in situ evolutionary one which is that blade, stemmed point and other Upper Paleolithic assemblages autonomously emerged in the South of Korean peninsula. Second one is migration model. From the north, not China but Siberia, and southern China, people came to the Korean peninsula with new stone tools. Last model is trade and exchange model mixing with migration one. Once people with new technology settled down in the north part of Korea and then give their knowledge or lithics to other group [@Bae and Bae_2012]. 
+The debates of starting point and origin of Upper Paleolithic period (MIS 3-2 transition) are most problematic and popular issue in the study of Paleolithic in Korea. Some people insist that emergence of blade (32,000 BP) is the starting point while others think stemmed point (35,000 BP) indicate the start. And the origin of Upper Paleolithic had been regarded as coming from Shuidonggou site located in northeast China. However, nowadays this concept starts to be rethinking. Since the dates of the similar sites in Korea were turned out be earlier than Shuidonggou [@Seong_2009]. Therefore people have tried to find the new origin and they present the three different models. First model is in situ evolutionary one which is that blade, stemmed point and other Upper Paleolithic assemblages autonomously emerged in the South of Korean peninsula. Second one is migration model. From the north, not China but Siberia, and southern China, people came to the Korean peninsula with new stone tools. Last model is trade and exchange model mixing with migration one. Once people with new technology settled down in the north part of Korea and then give their knowledge or lithics to other group [@Bae_Bae_2012]. 
 
 In this project, I would like to analyze those three different models based on archaeological evidence, perspective of human behavior, different scales of behaviors, apply several scientific approaches into the models, and reinterpret and evaluate the models.
 
-The three models are introduced and supported in different articles: (1) In situ model in an article, titled, “Emergence of a blade industry and evolution of Late Paleolithic technology in the Republic of Korea” [@Seong_2009], (2) Migration model in “Origin and pattern of the Upper Paleolithic industries in the Korean Peninsula and movement of modern human in East Asia” [@Bae_2010] and “The nature of the Early to Late Paleolithic transition in Korea: Current perspectives” [@Bae and Bae_2012], and (3) Combination model in “Current observations of the early Late Paleolithic in Korea” [@Lee_2013].
+The three models are introduced and supported in different articles: (1) In situ model in an article, titled, “Emergence of a blade industry and evolution of Late Paleolithic technology in the Republic of Korea” [@Seong_2009], (2) Migration model in “Origin and pattern of the Upper Paleolithic industries in the Korean Peninsula and movement of modern human in East Asia” [@Bae_2010] and “The nature of the Early to Late Paleolithic transition in Korea: Current perspectives” [@Bae_Bae_2012], and (3) Combination model in “Current observations of the early Late Paleolithic in Korea” [@Lee_2013].
  
 ##Archaeological evidence
 
@@ -44,116 +44,48 @@ About the advent of new technology, in other words, blade technology, the three 
 
 Interesting point is that the three models explain introduction of incomplete blade toolkits and coexistence with traditional assemblages as the result of modern human’s ability of adaptation (evolution) [@Seong_2009] or long-distance mobility [@Bae_2010], or the result of combination with mobility and trade (not by modern human) [@Lee_2013]. Without the common evidence of blade toolkit, Seong presents different aspect of sites and layer as evidence of mobility, effort for adaptation, and in situ development [@Seong_2009]. Bae expects the migration from southern China and Siberia with generic evidence of modern human on the basis of the fact that one of main characteristic of modern human is highly mobile forager [@Bae_2010]. Lee argues that the introduction of new technology by modern human’s migration or evolution is hard to believe due to the discordance between dates of archaeological record and ones of Homo sapience. Therefore he thinks that the new technology was the results of combination of trade, some part of migration, and in situ-development based on adaptation for endemic environment of Korean peninsula [@Lee_2013]. Both Seong and Lee recognize the existence of social network or mobility in Korean peninsula because of necessity of acquisition for fine-grain raw material and actual evidences such as obsidian from Mt. Baekdu, Kyushu, and Hokkaido sources [@Lee_2013].             
 
-
-
-################################################ 
-##Links between evidence and behavior
-migration or trade or both
-essential factors to illustrate modern human behaviors:raw material availability, subsistence, and mobility systems
-
 ##Behavior at different scales
-between indigenous foragers and non-indigenous
-among indigenous
 
-##Discussion
+Human behaviors depicted in the three models can be classified in two ways: worldwide range and regional range. I already distinguished the two ranges in the former chapter. For example, human’s evolution and migration are huge change in human history so these behaviors could belong to worldwide range or broad range of human behavior. Small range or regional range behaviors would be adaptation for surrounding environment, trade, mobility, and subsistence pattern. Combination and accumulation of these behaviors could become the worldwide range. And the evidences of the behavior could be detected in archaeological data such as use of same raw material [@Lee_2013] and genetic similarity [@Bae_2010].  
 
-Main reason of the debates is that the related Korean archaeological records do not provide strongly perceived distinctive toolkit such as Aurignacian in Europe (Lee 2013).
+In addition, I perceive other category of classification of human behavior which is social network. On the basis of Korean peninsula, there are two types of network could be existed: network between indigenous foragers and outsiders and one among indigenous foragers. Seong’s model is closed to the latter type [@Seong_2009], Bae’s to former one [@Bae_2010], and Lee’s to combination of the two types [@Lee_2013].
 
-1) Which model is more reasonable?
+##Explanatory model
 
-(1)Seong: in situ, evolutionary- IBE 'x->y', Salmon
-      "indigenous behavioral evolution"
-      "The change of using blade and blade tool is viewed as slow, evolutionary process that eventually culimated        in the Late Paleolithic transition"  
-      "The increasind frequency of blades in these sites is evidence for in situ model"
-      "Similar subsistene pattern: making stemmed point and then microblade" 
-      His argument is based on "modern human behavior" which I don't agree as Lee's opinion.(Seong 2009) 
-      He regards the modern human behavior as "pattern"-world wide one. Then, does it mean DN?/ontic? He applies the pattern into Korean case.. (He didn't mention about modern human itself)
-      ->generalized strategy to a formalized technology in the Late Pleistocene can be understood by the interplay of various factors, raw material availability, subsistence, and mobility systems and so one. He thinks that those changes can indicate evolution. And he concludes that the case of Korean Upper Paleolithic is fit into the pattern. In addition, Population density, growing intensity of competition among local populations, complex site structure, and specializtion in animal exploitation were changed in Upper Paleolithic (Gamble 1999; Gilman 1984; McBrearty and Brooks 2000; Whallon 1989, 2006 all sited in Seong 2009).(But Seoung doesn't mention about the exact evidence of increased population.)
-      He asserts that case of Asia is different with Europe, for example, Mousterian failed to reach to East Asia. And that's why similar tendency should be understood in the evolution approach emphasizing "adaptation" . 
-      Main mechanism: climate changed -> toolkits also changed ex) need for projectile technology
-                                      -> uneven resource distribution -> increasing mobility and increasing social networks => blade technology     
-      (The mechanism itself is causal..)
-      How and why blades bacames so widespread? = due to changes in settlement and subsistence systems, social structure, and population dynamics. 
-      High mobility: formal/generalized (standardized?) tools (and preparing core/blank which is suitable shape and size) represent reduction of production cost and associated with high monility since it minimizeds the weight of artifacts hunter-gatherers need to carry. But I think this argument is not more related with starting point but phase 2.
-      <His evidence>
-      (1)individual site in the sequence of stratified sites
-      -in a site: different characteristic according to time differnece
-      -difference between each site
-      => high mobility
-      -check all site->IBE??
-      
-      (2)chronological sequence
-      -no significant difference before 40,000
-      -significannt difference between 40,000 and 30,000 : blades and SP were recovered at middle cultural horizons at Hwadae-ri, Hopyeong-dong, and Youngho-dong and these artifact types dominate the lithic assemblages from Yongsan-dong and Gorye-ri. (Which is same with my phases)
-      
-      (3)change in lithic assemblages
-      -from earlier cobble- and pebble-tool-dominated assemblages to endscrapers, burins, and backed knives and produced from relatively high quality vein quartz. 
-      -same kinds of tool such as choppers and polyhedrals: their size and frequency seem to have decreased
-      
-      (4)change in SP and blade assemblages
-      -comparing the ratio: blade to flake ratio, large tool/small too ratio, and ratio of growing reliance on blade.-SP was kept using until microblade period (Jangheung-ri, Suyanggae, Jingeunul, Seockjang-ri, Sinbuk, and Wolpyeong).
-      
-      (5)Raw material change
-      -use new material for blade and related lithics: fine-grained raw materials such as siliceous shale or siliceous tuff(from quartzite and vein quartz): often not available in certain location -> move or trade -> increasing mobility and increasing social networks
-      -obsidian from Mt. Baekdu, Kyushu, and Hokkaido sources (Lee 2008 sited in Seong 2009)
-      
-       analogic model derive the power of problem-solving from comparison
-       I agree with Kohler and Leeuw (2007).-focus on context itself.
-       
-       
-       fine-grain/coarse-grain
+I do not think that Korean archaeologists employ methods of scientific explanation (SE) into their models because no clear approach of SE can be seen in their models. However, as most of archaeologists do, they use methods of SE without even recognizing them. For example, Seong’s approach of the phenomenon of blade introduction seems to be influenced by Binford and Binford. They criticize typological approach like Bordes, focus on causations of assemblages and believe the difference of lithics came from certain functional reason [@Binford_Binford_1966]. Seong regards that the reason of introduction of new lithic is for adaptation of changed environment. But I cannot conclude that Seong’s model is only based on causality or functionalism. Because he also understands the introduction of new lithic with the worldwide range of modern human’s behavior pattern, evolution [@Seong_2009]. In addition, he scrutinizes all relating sites, considers each characteristic, and tries to find more proper explanation. I think this approach is similar with pragmatism [@vanFraassen_1977] or Lipton’s loveliest explanation [@Lipton_2003].
 
-(2)Bae: migration, unification/ ontic
-     "Combination of different foraging groups emigrating from Siberia and southern China"
-     "Population movement"
-     "Counter argument of in situ: absence of continuous behavioral evolutionary transition such as from Oldowan to Acheulean"
-     "Genetic evidence: forgaing groups from southern China (modern humans) that still used Early Paleolithic core and flake tools migreaged northward to the Korean Peninsula" -> question "Why did they move facing colder environmental condition" -> answer: depending on "Paleobathymetric variation : South china was dry and that region and Korean Peninsula were connected at that time-swallow yellow sea", "Marine Isotope: not that much cold at that time"
-     "But still don't know why they moved"
-     
+In the beginning of this project, I expected to classify the models within Wylie’s classification which divides type of explanation into three: Epistemic theory of explanation, Ontic theories of explanation, and Pragmatic or erotetic theories of explanations [@Wylie_1996]. However, like Seong’s approach, I can recognize plural types of explanation in one model.   
 
-Law like statement: modern people -> migrate -> all modern people migrate -> it started upper Paleolithic
-But it seems Salmon's causual!
+Bae’s migration model is quite clear to apply SE. His approach based on theory of modern human’s migration is similar with using “law-like” statement of Hempel and Oppenheim’s [@Hempel_Oppenheim_1948]. His main argue is that modern human migrate and it starts Upper Paleolithic so the case of Korea is not different [@Bae_2010].
 
-Unification/(causality)
+Lee’s model starts with questions about other’s model. For example, even though the geological condition was reasonable to migration (low sea level), but Bae’s model cannot explain a question “why” people moved. And he verifies other’s evidence such as dating of modern human [@Lee_2013]. I think his approach is similar with Glymour’s or Hanon and Kelly which stress the importance of test and verification of hypothesis [@Glymour_1980]. His combination model seems like the model of Inference to the Best Explanation (IBE) which tries to provide best understanding [@Lipton_2003].   
+ 
+##Explanatory model and relevant philosophy of science literature. 
 
-(3)Lee?: mixing model?/ (He says new technologies was introduced but didn't change traditional assemblages) 
-    Basically His argument was originated from errors of others'.--foil?
-    The blade toolkits were introduced, but did not immediately replaced pre/coexisting traditional assemblage.
-    Also blade technology did not replace the prexisiting assemblage.
-    Ful-fledged simple core and flake tool assemblages (SCFA-pre/coexisting traditional assemblage) seems to reoccur around 100 ka and flourish unrtil 30ka. During the blade period, the SCFA exhibits the general characteristics withouth a wide range of variation within assemblage. 
-    Blade-based lithic technology initially starts around 35 ka in Korea (Bae,2010).
-    Evolutionary thoery (in situ) does not make sense due to absence of any predetermined lithic strategies that require extensive preparation, such as Levallois technique (Bar-Yosef and Kuhn 1999 sited in Lee 2013). And migration model should have Levallois technique too because Levallois technology is comprised of not only the Levallois technique, but also blades.
-    The most possible region the blade might originated from (migration thoery) is Altai region and 50ka (micro blade-30ka) based on evidence from Denisova Cave (Derevianko 2011 sited in Lee 2013). But there is huge time gap between Altai and Korea though the initial period of blade introduction is still not clear in Korea. The Korean blade assemblage from the period does not show sophisticated balde technology.The number of case of blade core is limited. But, the full-scale reduction sequence and crest technology exist in Korea (agree with some part of migration model). There is natural barrier in Northern part of Korean Penninsula, rugged mountain.
-    Some blade-like assemblages might be produced by accident. And there are numerous methods of manufacturing blades or long flakes (Bar-Yosef and Kuhn 1999 sited in Lee 2013).
-    The blade technology in Korea is not related with Homo spience(The age of the oldest one in Eurasia is younger than 40 ka).(The analysis of hominin remains is practically impossible in Korea) DNA of Denisovan from Altai are sisters to Neanderthals (Reich et al., 2010; Meyer et al.,2012 sited in Lee 2013). Korean blades seem ti be the result of a founder effect by pre-modern humans. (Maybe South-model of Bae's assertion is possible.)
-    He suggests the notion of "the ancestor and descendant relationship".
-    
-    
-Migration/trade interaction model-modified version of migration model
-"NO documented evidence of migration" 
-"Small frequency of new technology-blades and stemmed points at the beginning (slow introduction) of the Late Plaeolithicm but still most of assemblage were dominated by traditional lithics"
-"Possiblity of long distance migration: obsidian, Arca shells"
+As I mentioned in the previous chapter, Salmon’s causality, Hempel’s DN approach, van Fraassen’s pragmatism, combination of plural models, and Lipton’s IBE can be seen in the three models. Here, I would like to briefly introduce these explanatory model based on Wylie’s classification [@Wylie_1996]. 
 
-IBE model?    
-     
+Among her classification, epistemic theory of explanation is a “top-down” conception of explanation, and regarded as a function of the systematizing power of theory. It includes models of Hempel-Oppenheim, Friedman, and Kitcher. Hempel’s model, in other words, explanation by unification is the approach to explain by providing unified accounts of wide rages of phenomena. For example, a number of gas laws such as Boyle’s law, Charles’s law, Graham’s law, etc can be explained by Newtonian physics. The explanation of unification uses the notion of covering law, which new archaeology arisen from, based on the concept that every bona fide explanation makes essential reference to at least one law of nature. But this approach has some limitation that the method of unification often contains the reduction of one domain of science and the reduction in the behavior science is more problematic. For instance, the law cannot cover some specialties of each cases of archaeology such as functional explanation in evolutionary theory [@Salmon_1992].
 
+Ontic theory of explanation is a “bottom-up” approach, tries to reveal the mechanisms based on causality. Salmon’s model is included in this category. Salmon (1992) illustrates that causal explanation is to explain some phenomenon with finding and mentioning its cause. Its application into archaeological case needs to be taken in conjunction with recognition of the basic statistical character explanations. For instance, hunting strategy can be explained as a kind of ratio of yielding success (behavior science). More direct approach of causal explanation is to develop a theory of probabilistic causality. But it is not a simple, to make the theory valid, both contributory causes and counteracting causes should correspond to each other [@Salmon_1992]. However, Salmon’s approach also cannot explain individual facts. There are some cases that the request for explanation is rejected and asymmetry revealed by the barometer [@vanFraassen_1977]. 
 
-2) Application of scientific explanation
+Pragmatic or erotetic theory of explanations is a kind of family of theories, and closed to why-question rather than law-like statement. Van Frasseen asserts that scientific explanation is not pure science but an application of science to describe certain phenomena. Therefore, it should describe and explain individual cases and should be an answer of why-question [@vanFraassen_1980].
 
-hunter-gatherer's/Binford- functional explanation
-natural selection- apply to functional explanation - such as evolutionary explanation- but hard to verify/ unproveable. for example- no proxy in attribute of lithic. but zoo archaeology- it works
--markov-chain.
-community noum (reading and check all readind and case and then determine whether or not this case is general or is hard to explain in general way) and practice
-informal-high probability
+In addition to Wylie’s model, there is another approach, inference to the Best Explanation (IBE). This approach also points out the weakness of methods of Hempel and Salmon and focuses on individual case such as pragmatic. IBE tries to find the most reasonable explanation, called “loveliest explanation”. The difference with pragmatic approach is more deepen why question such as why P “rather than” Q. Interesting characteristic of IBE is process of testing hypothesis using the notion of foil [@Lipton_2003]. However, there are problems of judgments. We cannot judge whether loveliness explanation is really better likeliness one or not, and whether loveliness explanation can be matched with likeliness one [@Barnes_1995].     
+
+Besides, several combination models are suggested. Mostly they suggest combine two explanations of Hempel and Salmon but they place high importance on Salmon’s. For example, Wylie agrees with advantage of Kitcher’s unification and Renfrew’s model and asserts that those approaches need ontic explanation [@Wylie_1996]. Strevens also tries to combine those two approaches into one unified model named the kairetic account [@Strevens_2004]. And Kuznar and Long say that archaeological explanations must use a combination of specific causal mechanisms and generalizable laws [@Kuznar_Long_2008]. 
+
+##Critique of three models
+To tell conclusion first, I think Lee’s approach is the best explanation among three models. As his opinion, test of hypotheses, there is no evidence of existence modern human at the starting point of Upper Paleolithic in Korean peninsula [@Lee_2013]. Seong misses the explanation why population was increased at that time despite of severe climate change or the explanation of sequence in his causal mechanism, so his adaption model is hard to accept [@Seong_2009]. Bae cannot explain why foraging group of southern China moved to Korea rather staying in China [@Bae_2010]. For these reasons, I prefer to Lee’s approach, the combination model. 
+
+They overlooked delicate time gap between introduction of stemmed points (35,000 BP) and blades (32,000 BP). Stemmed points started earlier than blades and I think this time gap can explain the phenomenon as well as support in situ model. However, I don’t think that blade was also made by indigenous people. This technology was use in more broad geological range so that migration or trade is also reasonable in some point, definitely after stemmed points. Therefore, I think Upper Paleolithic was started by indigenous people but the concept of blade technology came from outside of Korea. 
 
 ##Conclusion
 
+The main task of this project is to reinterpret and evaluate three models depicting starting point of Upper Paleolithic in Korean peninsula. Each model has proper archaeological evidences and reflects human behaviors in different scales. Even though, the authors seem not recognize the approaches of scientific explanation, they still use the scientific approach under influence of reading archaeologists, Renfrew and Binford. I could succeed to find several kinds of scientific explanations in their models and could evaluate each model. 
+
+As a result, I think that Lee’s combination model is reasonable to describe the period. Again, I do not know whether he considered the scientific explanation as frame of his model or not, his approach is quite reasonable. Testing (other’s) hypotheses and recognizing foils of them are important points to evaluate as well as to build a model. 
+
+##Reference
 
 
-#Note for writing
-(1) Modern human and blade/microblade
-So far, blade/microblade technology has been regarded as symbol of modern human. But current evidences support the counterargument of those relationship. In other words, there is some cases which illustrate no relationship between blade/microblade technology and human. For example, the technology got started ealier than evolution towards modern Homo sapiens in Africa. In addition, there is no blade/microblade eventhough modern human reached until Southeast Asia (Shea et al.,Bae & Bae 2012).   [@lim_vertebrate_2007]
-
-(2) the Korean Late Paleolithic can be divided into two cultural stages: 1) an initial blade technology that appears sometime between 40 and 36ka; 2)around 25ka mcroblade begin to appear 
-
-Causality&mechanism: Causality is more small scale-particular. Mechanism: more broad, general,
+ 
